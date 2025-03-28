@@ -38,7 +38,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="../src/images/game-dev-projects/shifter2.png"
+              src="/game-dev-projects/shifter2.png"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -85,7 +85,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="../src/images/game-dev-projects/shifter2.png"
+              src="/game-dev-projects/shifter2.png"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -108,7 +108,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="../src/images/game-dev-projects/shifter2.png"
+              src="/game-dev-projects/shifter2.png"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"

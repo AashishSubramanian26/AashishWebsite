@@ -69,7 +69,7 @@ const Home = () => {
         >
           <VStack>
             <Image
-              src="../src/images/aashish-subramanian.jpeg"
+              src="aashish-subramanian.jpeg"
               alt="Aashish Subramanian"
               rounded="3xl"
               width="400px"
