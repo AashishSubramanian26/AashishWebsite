@@ -5,13 +5,13 @@ export const gameDevProjects = {
     genre: ["Puzzle", "Platformer", "Combat"],
     developmentTools: ["Unreal Engine 5", "Blender"],
     keyFeatures: [
-      "Multiplayer support",
-      "Dynamic combat system",
-      "Detailed environments",
+      "Single Player",
+      "2D ⇋ 3D Platformer",
+      "Game Jam",
     ],
     description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["combat", "action", "multiplayer"],
+      "You are a a knight trying to escape a castle and the only way to escape is to find the spells and cast shadow puppets so you can traverse the walls, and solve puzzles to escape the horrid place! The game involves you having to transform between the 3D and 2D world where you are once a knight that can turn into shadow animals.",
+    tags: ["Unreal Engine", "Game Jam", "3-Person Team"],
     cardImgSrc: "/game-dev-projects/shifter2.png",
     mediaContent: [
       // "../src/images/game-dev-projects/visiongrunt.mov",
@@ -28,27 +28,36 @@ export const gameDevProjects = {
       "/game-dev-projects/midnight-cram2.png",
     ],
     summary:
-      "The Shifter is a combat-focused, multiplayer action game developed using Unreal Engine 4. The game features a dynamic combat system that adapts to player behavior and includes detailed, immersive environments. Players engage in fast-paced, tactical battles in multiplayer modes, with a strong emphasis on strategy and real-time decision-making. With a focus on multiplayer dynamics, the game creates a competitive yet fun experience where players can team up, strategize, and fight against each other in visually stunning settings. The Shifter offers deep combat mechanics and an engaging, fast-paced action experience that keeps players coming back for more.",
+      "Created in just two weeks for the PirateSoftware Game Jam, The Shifter was built around the theme, 'Shadow and Alchemy.' Set in a haunting castle, the game challenges players to escape using shadow puppet magic—transforming into animals on the walls to solve intricate puzzles. Each transformation unlocks new paths, powers, exploration, and creative problem-solving.",
     designGoals: [
-      "Create engaging multiplayer combat mechanics.",
-      "Design visually detailed environments.",
-      "Implement dynamic combat systems that react to player behavior.",
+      "Support Seamless Transformation Mechanics",
+      "Integrate Shadow-Based Mechanics Deeply Into Level Design",
+      "Balance Puzzle-Solving with Platforming",
+      "Encourage Creative Puzzle-Solving",
     ],
-    coreMechanic: "Dynamic combat system with multiplayer integration.",
+    coreMechanic: "The core mechanic of The Shifter centers around dynamic animal transformation, giving players the ability to switch between three distinct forms: a bear, a bird, and a cat. Each animal possesses unique abilities that influence how puzzles are approached and solved, adding depth and variety to the gameplay experience. The bear form offers strength, allowing players to push heavy objects and defeat enemies that are in your way. The bird grants the ability to glide across large gaps and reach elevated platforms, opening up new paths and exploration opportunities. Meanwhile, the cat provides stealth and agility, enabling players to sneak through narrow spaces a longside a large jump. These transformation mechanics are integral to progression, encouraging creative problem-solving and offering multiple solutions to the same puzzle.",
+    
     whatWentWell: [
-      "Multiplayer integration was smooth.",
-      "Combat system offered great player feedback.",
-      "Visual environments were praised by playtesters.",
+      "Smooth transitions between the 3D and 2D worlds using shadow puppetry mechanics",
+      "Strong visual integration of art assets that captured the eerie, shadowy castle atmosphere",
+      "Effective communication and teamwork among all three members, allowing us to complete the project smoothly within two weeks",
     ],
+    
     challenges: [
-      "Balancing combat mechanics for multiplayer.",
-      "Optimizing game performance for large multiplayer matches.",
+      "Performance issues during the build process, including major lag spikes and occasional crashes",
+      "Defining a realistic project scope for a team of three within the two-week time constraint",
+      "Level designs could have better leveraged each animal’s abilities to create more engaging puzzle scenarios",
     ],
+    
     lessonsLearned: [
-      "Test early and often, especially with multiplayer elements.",
-      "Balance is key in combat mechanics for fairness.",
+      "Improved my skills in Blender to design and integrate art assets into the game",
+      "Developed a clearer grasp of the full game development workflow and the importance of documentation",
+      "Learned how to manage a small team effectively and maintain steady progress under tight deadlines",
     ],
+    
+    
   },
+
   "beetle-bistro": {
     projectName: "Beetle Bistro",
     role: ["Game Developer", "Artist"],
