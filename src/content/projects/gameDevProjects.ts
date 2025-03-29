@@ -1,9 +1,9 @@
 export const gameDevProjects = {
   "the-shifter": {
     projectName: "The Shifter",
-    role: ["System Designer"],
-    genre: ["Combat", "Action", "Multiplayer"],
-    developmentTools: ["Unreal Engine 4", "Blender"],
+    role: ["Lead Programmer", "Project Manager"],
+    genre: ["Puzzle", "Platformer", "Combat"],
+    developmentTools: ["Unreal Engine 5", "Blender"],
     keyFeatures: [
       "Multiplayer support",
       "Dynamic combat system",
