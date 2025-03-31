@@ -3,12 +3,14 @@ import {
   Text,
   TagProps as ChakraTagProps,
 } from "@chakra-ui/react";
+import { BsLink } from "react-icons/bs";
 
 interface TagProps extends ChakraTagProps {
   text: string;
+  type?: string;
 }
 
-export const Tag = ({ text, ...rest }: TagProps) => {
+export const Tag = ({ text, type, ...rest }: TagProps) => {
   return (
     <DefaultChakraTag
       backgroundColor={"tertiary_blue"}
@@ -20,7 +22,7 @@ export const Tag = ({ text, ...rest }: TagProps) => {
       cursor="default"
       {...rest}
     >
-      <Text textStyle="tag">{text}</Text>
+      <Text textStyle="tag" isTruncated display={"inline-flex"}>{text}{type === "link" && <BsLink size={20} style={{marginTop:"-1", marginLeft:"6"}} />}</Text>
     </DefaultChakraTag>
   );
 };

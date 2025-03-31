@@ -36,7 +36,7 @@ const GameDevProjects = () => {
           <ProjectCard
             key={index}
             projectName={project.projectName}
-            role={project.role[0]}
+            roles={project.role}
             description={project.description}
             tags={project.tags}
             imgSrc={project.cardImgSrc}

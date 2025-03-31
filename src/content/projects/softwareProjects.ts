@@ -2,7 +2,7 @@ export const softwareProjects = [
     {
       alias: "the-shifter",
       projectName: "The Shifter",
-      role: "System Designer",
+      role: ["System Designer"],
       description:
         "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
       tags: ["combat", "action", "multiplayer"],
@@ -11,7 +11,7 @@ export const softwareProjects = [
     {
       alias: "beetle-bistro",
       projectName: "Beetle Bistro",
-      role: "Game Developer",
+      role: ["Game Developer"],
       description:
         "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
       tags: ["adventure", "space", "single-player"],

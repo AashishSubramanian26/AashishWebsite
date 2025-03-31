@@ -11,7 +11,7 @@ import { Tag } from "@/components/Tag";
 
 interface ProjectCardProps {
   projectName: string;
-  role: string;
+  roles: string[];
   description: string;
   tags: string[];
   imgSrc: string;
@@ -20,7 +20,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({
   projectName,
-  role,
+  roles,
   description,
   tags,
   imgSrc,
@@ -42,6 +42,7 @@ export const ProjectCard = ({
       padding={4}
       onClick={onClick}
       cursor={"pointer"}
+      // overflow="scroll"
     >
       <Box w="40%" h="250px" rounded="3xl" overflow="hidden" minW="200px">
         <Image
@@ -55,12 +56,13 @@ export const ProjectCard = ({
       <VStack
         align={"left"}
         height="full"
+        w="60%"
         padding={4}
         paddingLeft={2}
         paddingBottom={2}
       >
         <Text textStyle="h2">{projectName}</Text>
-        <Text textStyle="description">{role}</Text>
+        <Text textStyle="description">{roles.join(" | ")}</Text>
         <Text textStyle="description">{description}</Text>
         <Spacer />
         {showTags && (

@@ -33,7 +33,7 @@ const SoftwareProjects = () => {
           <ProjectCard
             key={index}
             projectName={project.projectName}
-            role={project.role}
+            roles={project.role}
             description={project.description}
             tags={project.tags}
             imgSrc={project.imgSrc}

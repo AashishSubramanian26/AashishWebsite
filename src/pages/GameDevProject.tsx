@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { gameDevProjects } from "@/content/projects/gameDevProjects";
 import { MediaCarousel } from "@/components/MediaCarousel";
 import { useEffect } from "react";
+import { Tag } from "@/components/Tag";
 
 const GameDevProject = () => {
   const { projectName } = useParams();
@@ -26,6 +27,16 @@ const GameDevProject = () => {
             {project.projectName}
           </Text>
         </Box>
+        <HStack width="100%" marginTop="-6" justifyContent={"space-between"}>
+          <HStack>{project.tags.map((tag: string,  index) => <Tag text={tag} />)}</HStack>
+          <Tag text={project.linkText} type="link" cursor={"pointer"}
+                onClick={() =>
+                  window.open(
+                    project.link,
+                    "_blank"
+                  )
+                }/>
+          </HStack>
         <HStack width="100%" height="500px" alignItems="stretch" gap={10}>
           <Box width={"50%"} height="100%" rounded="3xl" overflow={"hidden"}>
             <MediaCarousel items={project.mediaContent} />
@@ -143,7 +154,7 @@ const GameDevProject = () => {
             <Text textStyle="description">{project.coreMechanic}</Text>
           </Box>
           <Box width={"50%"} height="100%" rounded="3xl" overflow={"hidden"}>
-            <MediaCarousel items={project.mediaContent} />
+            <MediaCarousel items={project.coreMechanicsContent} />
           </Box>
         </HStack>
         <HStack width="100%" gap={10} alignItems="stretch">

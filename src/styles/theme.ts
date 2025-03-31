@@ -33,7 +33,7 @@ const theme = extendTheme({
     },
     body: {
       fontWeight: "normal",
-      fontSize: ["14px", "14px", "20px"],
+      fontSize: ["14px", "14px", "22px"],
       lineHeight: ["20px", "20px", "32px"],
       color: "#ffffff",
     },
@@ -51,7 +51,7 @@ const theme = extendTheme({
     },
     description: {
       fontWeight: "400",
-      fontSize: ["12px", "14px", "16px"],
+      fontSize: ["12px", "14px", "18px"],
       lineHeight: ["16px", "20px", "28px"],
       color: "#ffffff",
     },
