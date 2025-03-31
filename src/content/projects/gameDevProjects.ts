@@ -133,8 +133,8 @@ export const gameDevProjects = {
     projectName: "The Midnight Cram",
     linkText: "Link to game",
     link: "https://github.com/AashishSubramanian26",
-    role: ["Lead Designer", "Artist"],
-    genre: ["Combat", "Action", "Multiplayer"],
+    role: ["Programmer"],
+    genre: ["Horror", "Action", "Singleplayer"],
     developmentTools: ["Unreal Engine 4", "Blender"],
     keyFeatures: [
       "Horror atmosphere",
@@ -142,8 +142,8 @@ export const gameDevProjects = {
       "Story-driven missions",
     ],
     description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["zombie", "shooter", "horror"],
+      "A horror game built in Unreal Engine 5 for my CS415 Game Development course. Set in the haunted Grainger Engineering Library, you play as a student trapped in a nightmare, hunted by the menacing Grainger Bob. To escape, you must collect 14 scattered notes and pass your final exam—all while evading Bob’s pursuit using stealth and strategy.",
+    tags: ["Unreal Engine", "Blender", "AI"],
     cardImgSrc: "/game-dev-projects/midnight-cram2.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
@@ -184,8 +184,8 @@ export const gameDevProjects = {
       "Action pacing needs to flow well with horror themes.",
     ],
   },
-  "fantasy-quest": {
-    projectName: "Fantasy Quest",
+  "househould-hustle`": {
+    projectName: "Household Hustle",
     linkText: "Link to game",
     link: "https://github.com/AashishSubramanian26",
     role: ["Level Designer", "Artist"],
@@ -239,8 +239,63 @@ export const gameDevProjects = {
       "Quests should complement the world, not disrupt immersion.",
     ],
   },
-  "battle-royale": {
-    projectName: "Battle Royale",
+  "ariadnes-blessing": {
+    projectName: "Ariadne's Blessing",
+    linkText: "Link to game",
+    link: "https://github.com/AashishSubramanian26",
+    role: ["Game Designer", "Artist"],
+    genre: ["Combat", "Action", "Multiplayer"],
+    developmentTools: ["Unreal Engine 4", "Blender"],
+    keyFeatures: [
+      "Last-player-standing mechanics",
+      "Large multiplayer maps",
+      "Real-time combat",
+    ],
+    description:
+      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
+    tags: ["battle royale", "multiplayer", "action"],
+    cardImgSrc: "/game-dev-projects/shifter2.png",
+    mediaContent: [
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    coreMechanicsContent: [
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    summary:
+      "Battle Royale is an intense multiplayer action game where players compete for survival in a large, shrinking battlefield. The last-player-standing mechanic is at the core of the game, with players scavenging for resources, engaging in real-time combat, and avoiding elimination. The game offers large maps, dynamic environments, and fast-paced combat that rewards strategy and quick thinking. Developed using Unreal Engine 4, Battle Royale creates an adrenaline-pumping experience where players must outlast their opponents and be the last survivor. The game emphasizes teamwork, survival, and tactical combat for an exciting multiplayer experience.",
+    designGoals: [
+      "Create large, dynamic multiplayer maps.",
+      "Ensure tight and engaging real-time combat.",
+      "Focus on a fair and competitive gameplay experience.",
+    ],
+    coreMechanic: "Survival and combat in large multiplayer environments.",
+    whatWentWell: [
+      "Real-time combat was engaging and intense.",
+      "The map design allowed for strategic gameplay.",
+    ],
+    challenges: [
+      "Balancing player engagement throughout the game.",
+      "Ensuring fair matchmaking for competitive play.",
+    ],
+    lessonsLearned: [
+      "Game balance is crucial in battle royale games.",
+      "Map design should cater to diverse playstyles and strategies.",
+    ],
+  },
+  "sugar-and-slice": {
+    projectName: "Sugar and Slice",
     linkText: "Link to game",
     link: "https://github.com/AashishSubramanian26",
     role: ["Game Designer", "Artist"],
