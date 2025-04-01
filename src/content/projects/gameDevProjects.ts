@@ -2,14 +2,14 @@ export const gameDevProjects = {
   "the-shifter": {
     projectName: "The Shifter",
     linkText: "Link",
-    link: "https://github.com/AashishSubramanian26",
+    link: "https://team-hustle.itch.io/the-shifter",
     role: ["Lead Programmer", "Project Manager"],
     genre: ["Puzzle", "Platformer", "Combat"],
     developmentTools: ["Unreal Engine 5", "Blender"],
     keyFeatures: [
       "Single Player",
       "2D ⇋ 3D Platformer",
-      "Game Jam",
+      "Platformer Mechanics",
     ],
     description:
       "You are a a knight trying to escape a castle and the only way to escape is to find the spells and cast shadow puppets so you can traverse the walls, and solve puzzles to escape the horrid place! The game involves you having to transform between the 3D and 2D world where you are once a knight that can turn into shadow animals.",
@@ -131,15 +131,15 @@ export const gameDevProjects = {
   },
   "midnight-cram": {
     projectName: "The Midnight Cram",
-    linkText: "Link to game",
-    link: "https://github.com/AashishSubramanian26",
+    linkText: "Link",
+    link: "https://aashish-subramanian.itch.io/the-midnight-cram",
     role: ["Programmer"],
     genre: ["Horror", "Action", "Singleplayer"],
-    developmentTools: ["Unreal Engine 4", "Blender"],
+    developmentTools: ["Unreal Engine", "Blender"],
     keyFeatures: [
-      "Horror atmosphere",
-      "Intense action gameplay",
-      "Story-driven missions",
+      "Single Player",
+      "Horror Atmosphere",
+      "Stealth Mechanics",
     ],
     description:
       "A horror game built in Unreal Engine 5 for my CS415 Game Development course. Set in the haunted Grainger Engineering Library, you play as a student trapped in a nightmare, hunted by the menacing Grainger Bob. To escape, you must collect 14 scattered notes and pass your final exam—all while evading Bob’s pursuit using stealth and strategy.",
