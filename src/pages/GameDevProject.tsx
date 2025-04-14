@@ -149,9 +149,14 @@ const GameDevProject = () => {
             height="100%"
           >
             <Text textStyle="h2" pb={4}>
-              Core Mechanic
+              Contrubitions
             </Text>
-            <Text textStyle="description">{project.coreMechanic}</Text>
+            {/* <Text textStyle="description">{project.coreMechanic}</Text> */}
+            {project.coreMechanic.map((mech, index) => (
+              <Text textStyle="description" key={index}>
+                {index + 1}. {mech}
+              </Text>
+            ))}
           </Box>
           <Box width={"50%"} height="100%" rounded="3xl" overflow={"hidden"}>
             <MediaCarousel items={project.coreMechanicsContent} />

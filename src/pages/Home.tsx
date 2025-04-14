@@ -118,14 +118,14 @@ const Home = () => {
             </HStack>
           </VStack>
           <VStack
-            height="100%"
+            // height="100%"
             alignItems="start"
             backgroundColor="secondary_blue"
             rounded="3xl"
             padding={8}
             gap={10}
           >
-            <Text textStyle="body" width="100%">
+            <Text textStyle="body" width="100%" height="100%">
               {homeContent.description}
             </Text>
             <Spacer />

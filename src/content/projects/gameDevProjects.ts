@@ -51,27 +51,32 @@ export const gameDevProjects = {
       "Balance Puzzle-Solving with Platforming",
       "Encourage Creative Puzzle-Solving",
     ],
-    coreMechanic: "The core mechanic of The Shifter centers around dynamic animal transformation, giving players the ability to switch between three distinct forms: a bear, a bird, and a cat. Each animal possesses unique abilities that influence how puzzles are approached and solved, adding depth and variety to the gameplay experience. The bear form offers strength, allowing players to push heavy objects and defeat enemies that are in your way. The bird grants the ability to glide across large gaps and reach elevated platforms, opening up new paths and exploration opportunities. Meanwhile, the cat provides stealth and agility, enabling players to sneak through narrow spaces a longside a large jump. These transformation mechanics are integral to progression, encouraging creative problem-solving and offering multiple solutions to the same puzzle.",
-    
+    coreMechanic: [
+      "Led a team of three, organizing workflow over a two-week development cycle using Trello to effectively manage tasks and deadlines",
+      "Learned and applied Blender to model and texture 3D assets, significantly contributing to the game’s visual depth and immersion",
+      "Designed levels and puzzles that highlighted each shadow animal’s unique abilities, ensuring their mechanics were meaningfully integrated into gameplay",
+      "Developed and implemented the transformation mechanic across both 2D and 3D spaces, enabling seamless transitions between gameplay modes",
+    ],
+
     whatWentWell: [
       "Smooth transitions between the 3D and 2D worlds using shadow puppetry mechanics",
       "Strong visual integration of art assets that captured the eerie, shadowy castle atmosphere",
       "Effective communication and teamwork among all three members, allowing us to complete the project smoothly within two weeks",
     ],
-    
+
     challenges: [
       "Performance issues during the build process, including major lag spikes and occasional crashes",
       "Defining a realistic project scope for a team of three within the two-week time constraint",
       "Level designs could have better leveraged each animal’s abilities to create more engaging puzzle scenarios",
     ],
-    
+
     lessonsLearned: [
       "Improved my skills in Blender to design and integrate art assets into the game",
       "Developed a clearer grasp of the full game development workflow and the importance of documentation",
       "Learned how to manage a small team effectively and maintain steady progress under tight deadlines",
     ],
-    
-    
+
+
   },
 
   "beetle-bistro": {
@@ -115,7 +120,10 @@ export const gameDevProjects = {
       "Incorporate meaningful puzzle mechanics.",
       "Develop a strong narrative that ties gameplay elements together.",
     ],
-    coreMechanic: "Exploration and puzzle-solving in a space-themed world.",
+    coreMechanic: [
+      " ", 
+      " ", 
+      " "],
     whatWentWell: [
       "Puzzle mechanics were intuitive and rewarding.",
       "The narrative resonated well with players.",
@@ -170,7 +178,12 @@ export const gameDevProjects = {
       "Deliver high-intensity action gameplay.",
       "Develop a compelling, story-driven experience.",
     ],
-    coreMechanic: "Shoot and survive while unraveling a terrifying story.",
+    coreMechanic: [
+      "Implemented player movement features, including a hiding mechanic that allows the player to take cover under tables to evade the AI enemy",
+      "Built an inventory system enabling item usage such as a flashlight, batteries, and energy boosts for sprinting",
+      "Designed and built one of the game’s levels, placing assets to craft a tense, immersive horror atmosphere",
+      "Debugged issues with the AI pursuer logic to ensure consistent enemy behavior and proper chasing triggers",
+    ],
     whatWentWell: [
       "The horror atmosphere was praised for its intensity.",
       "Action gameplay felt exciting and immersive.",
@@ -186,11 +199,11 @@ export const gameDevProjects = {
   },
   "househould-hustle`": {
     projectName: "Household Hustle",
-    linkText: "Link to game",
-    link: "https://github.com/AashishSubramanian26",
+    linkText: "Link",
+    link: "https://aashish-subramanian.itch.io/the-midnight-cram",
     role: ["Level Designer", "Artist"],
     genre: ["Combat", "Action", "Multiplayer"],
-    developmentTools: ["Unreal Engine 4", "Blender"],
+    developmentTools: ["Unreal Engine 5", "Blender"],
     keyFeatures: [
       "Open-world exploration",
       "Fantasy-themed environments",
@@ -225,7 +238,10 @@ export const gameDevProjects = {
       "Develop a variety of quests for diverse playstyles.",
       "Ensure a compelling fantasy setting.",
     ],
-    coreMechanic: "Exploration and questing in an open-world environment.",
+    coreMechanic: [
+      " ", 
+      " ", 
+      " "],
     whatWentWell: [
       "The world design was vast and engaging.",
       "Quest diversity appealed to a wide range of players.",
@@ -335,7 +351,10 @@ export const gameDevProjects = {
       "Ensure tight and engaging real-time combat.",
       "Focus on a fair and competitive gameplay experience.",
     ],
-    coreMechanic: "Survival and combat in large multiplayer environments.",
+    coreMechanic: [
+      " ", 
+      " ", 
+      " "],
     whatWentWell: [
       "Real-time combat was engaging and intense.",
       "The map design allowed for strategic gameplay.",

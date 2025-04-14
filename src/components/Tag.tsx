@@ -20,9 +20,11 @@ export const Tag = ({ text, type, ...rest }: TagProps) => {
       display="inline"
       whiteSpace="nowrap"
       cursor="default"
+      overflow="hidden"
+      // isTruncated
       {...rest}
     >
-      <Text textStyle="tag" isTruncated display={"inline-flex"}>{text}{type === "link" && <BsLink size={20} style={{marginTop:"-1", marginLeft:"6"}} />}</Text>
+      <Text textStyle="tag"  display={"inline-flex"}>{text}{type === "link" && <BsLink size={20} style={{marginTop:"-1", marginLeft:"6"}} />}</Text>
     </DefaultChakraTag>
   );
 };
