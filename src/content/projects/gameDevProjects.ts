@@ -368,4 +368,130 @@ export const gameDevProjects = {
       "Map design should cater to diverse playstyles and strategies.",
     ],
   },
+  "VRchaeology": {
+    projectName: "VRchaeology",
+    linkText: "Link",
+    link: "https://games.illinois.edu/Ongoing-Projects.html",
+    role: ["Game Programmer"],
+    genre: ["Educational", "Exploration", "Training"],
+    developmentTools: ["VR", "Unreal Engine", "Jira"],
+    keyFeatures: [
+      "Immersive VR-based archaeology simulation",
+      "Hands-on excavation and artifact discovery",
+      "Authentic field techniques adapted for the classroom",
+    ],
+    description:
+      "VRchaeology revolutionizes archaeological education by simulating real-world field techniques in an immersive virtual reality setting. Designed for classroom use, the experience allows students to explore dig sites, uncover artifacts, and learn archaeological methodology—without ever leaving their desks. Built in Unreal Engine for VR, the project redefines hands-on learning for the field sciences.",
+    tags: ["VR", "Simulation", "Educational"],
+    cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
+    mediaContent: [
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    coreMechanicsContent: [
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    summary:
+      "VRchaeology is a VR educational simulation that brings archaeology into the classroom. Students virtually participate in fieldwork activities—digging, discovering, and documenting artifacts—while learning core archaeological methods in an interactive, immersive environment. Built in Unreal Engine with VR support, this project makes field sciences accessible to all learners.",
+    designGoals: [
+      "Make real-world field techniques accessible through VR.",
+      "Ensure educational content is engaging and intuitive for studentd without VR experience.",
+      "Support classroom use with meaningful interactivity and feedback.",
+    ],
+    coreMechanic: [
+    "Implemented core VR interaction systems using Unreal Engine Blueprints",
+    "Developed artifact excavation and inspection mechanics with intuitive user feedback",
+    "Led classroom playtesting sessions to evaluate usability and learning outcomes",
+    "Analyzed student and instructor feedback to identify pain points and UX issues",
+    "Prioritized and implemented gameplay changes, refining mechanics based on real user input",
+    "Resolved interaction bugs and fine-tuned controls to ensure a smooth VR experience"
+    ],
+    whatWentWell: [
+      "Feedback loop from playtesting helped improve UX flow.",
+      "VR immersion successfully simulated real-world fieldwork.",
+    ],
+    challenges: [
+      "Learning VR development for the first time and adapting to new workflows.",
+      "Balancing educational accuracy with engaging gameplay.",
+      "Internal team communication to ensure everyone was on the same page.",
+    ],
+    lessonsLearned: [
+      "VR design principles differ greatly from traditional game development.",
+      "Iterative playtesting is crucial when designing for classroom environments.",
+      "Small fixes in VR can significantly impact player comfort and usability."
+    ],
+  },
+  "wide-asleep": {
+    projectName: "Wide Asleep",
+    linkText: "Link",
+    link: "https://games.illinois.edu/Ongoing-Projects.html",
+    role: ["Game Programmer", "Project Manager"],
+    genre: ["Survival", "Horror", "Singleplayer"],
+    developmentTools: ["Unreal Engine", "Jira"],
+    keyFeatures: [
+      "Exploration and puzzle-solving",
+      "Horror atmosphere",
+      "Engaging narrative",
+    ],
+    description:
+      "Trapped in a coma after a tragic car crash, a young girl must navigate a nightmarish dreamscape shaped by guilt, fear, and fractured memories. With her senses dulled and her body weak, she’s hunted by monstrous reflections of her own family—twisted versions born from her inner turmoil. As she clings to survival, she'll confront the truth she’s buried deep inside: maybe they didn’t hate her after all.",
+    tags: ["5-Person Team", "Psychological Horror", "Single-Player"],
+    cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
+    mediaContent: [
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    coreMechanicsContent: [
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+      // "../src/images/game-dev-projects/visiongrunt.mov",
+      "/game-dev-projects/beetle-bistro2.png",
+      "/game-dev-projects/midnight-cram2.png",
+    ],
+    summary:
+      "Wide Asleep is a narrative-focused horror game developed as part of a UIUC course designed to introduce students to the full game development pipeline. Rather than aiming for a polished, full-scale game, the goal of the project was to practice key industry skills such as writing design documentation, managing development timelines, scoping effectively, and collaborating within a team. The game explores a girl’s emotional journey through a coma-induced nightmare, blending psychological horror with exploration and light puzzle-solving.",
+    designGoals: [
+      "Understand and apply the complete game development process from concept to prototype",
+      "Write and maintain documentation that communicates vision and scope to a team",
+      "Experience timeline and task tracking in a team setting with changing circumstances",
+      "Deliver a playable prototype that communicates narrative and mechanical intent"
+    ],
+    coreMechanic: [
+      "Developed core gameplay systems including inventory, hotbar UI, and usable item functionality",
+      "Implemented character movement, control logic, and key level design features",
+      "Supported team onboarding by creating practice tasks and guiding members new to Unreal Engine",
+      "Adapted project scope and redistributed tasks to ensure a playable build under tight constraints"
+    ],
+    whatWentWell: [
+      "Successfully created an emotional narrative atmosphere tied to gameplay",
+      "UI systems like hotbar and inventory were clean, functional, and immersive"
+    ],
+    challenges: [
+      "Creating a functional prototype despite major scope reductions and unresponsive team members",
+      "Training team members who were new to Unreal while managing development on a tight timeline"
+    ],
+    lessonsLearned: [
+      "Effective documentation and scope planning are as critical as coding in game development",
+      "Adapting quickly to team constraints and reassigning tasks is crucial to project survival",
+      "Teaching tools and processes to teammates helps ensure broader project success"
+    ]
+  },
 };
