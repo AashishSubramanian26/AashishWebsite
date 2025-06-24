@@ -81,19 +81,19 @@ export const gameDevProjects = {
 
   "beetle-bistro": {
     projectName: "Beetle Bistro",
-    linkText: "Link to game",
-    link: "https://github.com/AashishSubramanian26",
+    linkText: "Link",
+    link: "https://gamebuilders-studio.itch.io/beetle-bistro",
     role: ["Game Developer"],
-    genre: ["Party", "Puzzle", "Multiplayer"],
+    genre: ["Party", "Co-op", "Multiplayer"],
     developmentTools: ["Unity"],
     keyFeatures: [
-      "Exploration and puzzle-solving",
-      "Space-themed environments",
-      "Engaging narrative",
+      "Fast-paced local multiplayer gameplay",
+      "Chaotic kitchen coordination inspired by Overcooked",
+      "Charming insect-themed art and animations"
     ],
     description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["adventure", "space", "single-player"],
+      "Beetle Bistro is a fast-paced, chaotic kitchen co-op game where players take on the role of tiny insect chefs cooking meals in a bug-sized world. Inspired by Ghost Town Games' *Overcooked*, the game challenges players to collaborate under pressure, prepare dishes, and overcome obstacles in tiny kitchens. Developed by a 21-person student team at ACM GameBuilders at UIUC, the game served as an educational case study to explore team-based development, mechanics replication, and project release strategies.",
+    tags: ["co-op", "multiplayer", "21-Person Team", "Overcooked-like"],
     cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
@@ -114,28 +114,32 @@ export const gameDevProjects = {
       "/game-dev-projects/midnight-cram2.png",
     ],
     summary:
-      "Beetle Bistro is an adventure game set in space, where players explore a vibrant, otherworldly environment while solving intricate puzzles. Developed with Unity, the game offers an engaging single-player experience with a space-themed world full of mysteries and challenges. Players take on the role of a resourceful beetle who must navigate through a variety of environments, each with its own set of puzzles. The game emphasizes exploration, puzzle-solving, and a captivating narrative that drives the player's journey. Players uncover secrets, face obstacles, and piece together a story that adds depth to the gameplay experience.",
+      "Beetle Bistro is a cooperative kitchen chaos game where you and your friends play as bug-sized chefs trying to cook and serve meals in tight quarters. The project was created as part of ACM GameBuilders’ second full-scale release and served as a team-based learning experience in Unity development, level design, and multiplayer systems.",
     designGoals: [
-      "Create a captivating and immersive space world.",
-      "Incorporate meaningful puzzle mechanics.",
-      "Develop a strong narrative that ties gameplay elements together.",
+      "Recreate the cooperative chaos of Overcooked with original mechanics and style",
+      "Explore multiplayer systems in Unity with a team of student developers",
+      "Foster learning and collaboration through structured production and scope management"
     ],
     coreMechanic: [
-      " ", 
-      " ", 
-      " "],
+      "Built a grid-based level creation tool to streamline kitchen layout design for rapid iteration",
+      "Implemented the player respawn system and handled in-game item interactions like dishwashing and cooking",
+      "Contributed to multiplayer functionality, including handling player joining and synchronization",
+      "Collaborated with a large team to coordinate asset integration and game state consistency"
+    ],
     whatWentWell: [
-      "Puzzle mechanics were intuitive and rewarding.",
-      "The narrative resonated well with players.",
+      "Level design tools improved iteration speed significantly",
+      "Multiplayer functionality and respawn systems worked smoothly under pressure"
     ],
     challenges: [
-      "Creating a balance between exploration and puzzle difficulty.",
-      "Ensuring smooth player progression through the puzzles.",
+      "As my second Unity project, I was still learning the engine and had to quickly get comfortable with scripting, prefabs, and networking",
+      "Coordinating across a large team and maintaining consistent code standards",
+      "Balancing the pace of gameplay to feel chaotic yet manageable"
     ],
     lessonsLearned: [
-      "Narrative-driven gameplay needs to be tied closely with mechanics.",
-      "Player progression should be gradual and rewarding.",
-    ],
+      "Custom tools can greatly accelerate collaborative level design in Unity",
+      "Multiplayer development requires constant testing and clear communication",
+      "Rapidly picking up a new engine while contributing meaningfully is possible with focused practice and teamwork"
+    ]
   },
   "midnight-cram": {
     projectName: "The Midnight Cram",
@@ -197,134 +201,140 @@ export const gameDevProjects = {
       "Action pacing needs to flow well with horror themes.",
     ],
   },
-  "househould-hustle`": {
-    projectName: "Household Hustle",
-    linkText: "Link",
-    link: "https://aashish-subramanian.itch.io/the-midnight-cram",
-    role: ["Level Designer", "Artist"],
-    genre: ["Combat", "Action", "Multiplayer"],
-    developmentTools: ["Unreal Engine 5", "Blender"],
-    keyFeatures: [
-      "Open-world exploration",
-      "Fantasy-themed environments",
-      "Multiple quest lines",
-    ],
-    description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["fantasy", "rpg", "open-world"],
-    cardImgSrc: "/game-dev-projects/shifter2.png",
-    mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-    ],
-    coreMechanicsContent: [
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-    ],
-    summary:
-      "Fantasy Quest is an open-world RPG set in a rich fantasy world filled with adventure, exploration, and quests. Players take on the role of a hero embarking on a journey through diverse landscapes, from lush forests to ancient ruins. With multiple quest lines, the game offers varied gameplay experiences, allowing players to choose their path while immersing themselves in the lore and history of the world. The game features a wide range of activities, including combat, puzzle-solving, and interaction with NPCs, creating a dynamic, engaging experience in a detailed, fantasy-driven environment.",
-    designGoals: [
-      "Create a vast, open-world environment.",
-      "Develop a variety of quests for diverse playstyles.",
-      "Ensure a compelling fantasy setting.",
-    ],
-    coreMechanic: [
-      " ", 
-      " ", 
-      " "],
-    whatWentWell: [
-      "The world design was vast and engaging.",
-      "Quest diversity appealed to a wide range of players.",
-    ],
-    challenges: [
-      "Managing the scale of the open world.",
-      "Ensuring quests felt meaningful within the world.",
-    ],
-    lessonsLearned: [
-      "Open-world games need careful pacing to avoid overwhelming players.",
-      "Quests should complement the world, not disrupt immersion.",
-    ],
-  },
-  "ariadnes-blessing": {
-    projectName: "Ariadne's Blessing",
-    linkText: "Link to game",
-    link: "https://github.com/AashishSubramanian26",
-    role: ["Game Designer", "Artist"],
-    genre: ["Combat", "Action", "Multiplayer"],
-    developmentTools: ["Unreal Engine 4", "Blender"],
-    keyFeatures: [
-      "Last-player-standing mechanics",
-      "Large multiplayer maps",
-      "Real-time combat",
-    ],
-    description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["battle royale", "multiplayer", "action"],
-    cardImgSrc: "/game-dev-projects/shifter2.png",
-    mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-    ],
-    coreMechanicsContent: [
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-    ],
-    summary:
-      "Battle Royale is an intense multiplayer action game where players compete for survival in a large, shrinking battlefield. The last-player-standing mechanic is at the core of the game, with players scavenging for resources, engaging in real-time combat, and avoiding elimination. The game offers large maps, dynamic environments, and fast-paced combat that rewards strategy and quick thinking. Developed using Unreal Engine 4, Battle Royale creates an adrenaline-pumping experience where players must outlast their opponents and be the last survivor. The game emphasizes teamwork, survival, and tactical combat for an exciting multiplayer experience.",
-    designGoals: [
-      "Create large, dynamic multiplayer maps.",
-      "Ensure tight and engaging real-time combat.",
-      "Focus on a fair and competitive gameplay experience.",
-    ],
-    coreMechanic: "Survival and combat in large multiplayer environments.",
-    whatWentWell: [
-      "Real-time combat was engaging and intense.",
-      "The map design allowed for strategic gameplay.",
-    ],
-    challenges: [
-      "Balancing player engagement throughout the game.",
-      "Ensuring fair matchmaking for competitive play.",
-    ],
-    lessonsLearned: [
-      "Game balance is crucial in battle royale games.",
-      "Map design should cater to diverse playstyles and strategies.",
-    ],
-  },
+  // "househould-hustle`": {
+  //   projectName: "Household Hustle",
+  //   linkText: "Link",
+  //   link: "https://aashish-subramanian.itch.io/the-midnight-cram",
+  //   role: ["Level Designer", "Artist"],
+  //   genre: ["Combat", "Action", "Multiplayer"],
+  //   developmentTools: ["Unreal Engine 5", "Blender"],
+  //   keyFeatures: [
+  //     "Open-world exploration",
+  //     "Fantasy-themed environments",
+  //     "Multiple quest lines",
+  //   ],
+  //   description:
+  //     "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
+  //   tags: ["fantasy", "rpg", "open-world"],
+  //   cardImgSrc: "/game-dev-projects/shifter2.png",
+  //   mediaContent: [
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //   ],
+  //   coreMechanicsContent: [
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //   ],
+  //   summary:
+  //     "Fantasy Quest is an open-world RPG set in a rich fantasy world filled with adventure, exploration, and quests. Players take on the role of a hero embarking on a journey through diverse landscapes, from lush forests to ancient ruins. With multiple quest lines, the game offers varied gameplay experiences, allowing players to choose their path while immersing themselves in the lore and history of the world. The game features a wide range of activities, including combat, puzzle-solving, and interaction with NPCs, creating a dynamic, engaging experience in a detailed, fantasy-driven environment.",
+  //   designGoals: [
+  //     "Create a vast, open-world environment.",
+  //     "Develop a variety of quests for diverse playstyles.",
+  //     "Ensure a compelling fantasy setting.",
+  //   ],
+  //   coreMechanic: [
+  //     " ", 
+  //     " ", 
+  //     " "],
+  //   whatWentWell: [
+  //     "The world design was vast and engaging.",
+  //     "Quest diversity appealed to a wide range of players.",
+  //   ],
+  //   challenges: [
+  //     "Managing the scale of the open world.",
+  //     "Ensuring quests felt meaningful within the world.",
+  //   ],
+  //   lessonsLearned: [
+  //     "Open-world games need careful pacing to avoid overwhelming players.",
+  //     "Quests should complement the world, not disrupt immersion.",
+  //   ],
+  // },
+  // "ariadnes-blessing": {
+  //   projectName: "Ariadne's Blessing",
+  //   linkText: "Link",
+  //   link: "https://gamebuilders-studio.itch.io/adriadnes-blessing",
+  //   role: ["Game Designer", "QA"],
+  //   genre: ["Survival", "First-Person", "Horror"],
+  //   developmentTools: ["Unity", "Jira"],
+  //   keyFeatures: [
+  //     "First-person survival horror experience",
+  //     "Dynamic enemy encounters with minotaurs",
+  //     "God-given powers as unlockable gameplay abilities"
+  //   ],
+  //   description:
+  //     "In this immersive first-person horror game, you step into the shoes of Theseus, trapped in a twisted labyrinth crawling with monstrous minotaurs. With no one ever escaping before, your only hope lies in the blessings of the gods. Prove your courage and make use of divine powers to survive the hunt and find a way out. Developed in Unreal Engine 4, Ariadne's Blessing reimagines the Greek myth as a tense, atmospheric survival experience where combat, exploration, and mythological theming collide.",
+  //   tags: ["First-Person", "Horror", "Mythology"],
+  //   cardImgSrc: "/game-dev-projects/shifter2.png",
+  //   mediaContent: [
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //   ],
+  //   coreMechanicsContent: [
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //     // "../src/images/game-dev-projects/visiongrunt.mov",
+  //     "/game-dev-projects/beetle-bistro2.png",
+  //     "/game-dev-projects/midnight-cram2.png",
+  //   ],
+  //   summary:
+  //     "Ariadne’s Blessing is a mythologically-inspired horror survival game where you play as Theseus, navigating a deadly labyrinth while being stalked by terrifying minotaurs. With divine boons from the gods on your side, you must overcome traps, collect resources, and survive. Developed in Unreal Engine 4, the game blends atmospheric tension with fast-paced decision-making. This project was a collaborative student effort with a strong focus on design iteration, player feedback, and immersive worldbuilding.",
+  //     designGoals: [
+  //       "Capture the mythological tone of Greek legends within a horror survival framework",
+  //       "Explore how divine power-ups can alter gameplay and offer strategic advantages",
+  //       "Use level design to create fear, disorientation, and reward player exploration where each expereince is unique because of the procedural generated maze",
+  //     ],
+  //     coreMechanic: [
+  //       "Designed a wide variety of myth-themed items and abilities tied to different gods",
+  //       "Managed QA testing cycles and documented bugs and design inconsistencies during playtesting",
+  //       "Contributed to gameplay concepting and feature iteration during early design phases",
+  //       "Worked closely with team to refine item balance, usability, and visual presentation"
+  //     ],
+  //     whatWentWell: [
+  //       "Item designs contributed meaningfully to gameplay variety and mythology themes",
+  //       "QA testing led to noticeable gameplay improvements over time"
+  //     ],
+  //     challenges: [
+  //       "Faced difficulty in having design ideas acknowledged due to limited team input structure",
+  //       "Had to balance coursework with team meetings and design responsibilities during a demanding semester"
+  //     ],
+  //     lessonsLearned: [
+  //       "Design is iterative, and strong communication is just as important as creative contribution",
+  //       "It's important to advocate for ideas while also adapting to collaborative constraints",
+  //       "Even without programming, design and QA are powerful ways to shape a game’s player experience"
+  //     ]
+  // },
   "sugar-and-slice": {
     projectName: "Sugar and Slice",
-    linkText: "Link to game",
-    link: "https://github.com/AashishSubramanian26",
-    role: ["Game Designer", "Artist"],
-    genre: ["Combat", "Action", "Multiplayer"],
-    developmentTools: ["Unreal Engine 4", "Blender"],
+    linkText: "Link",
+    link: "https://gamebuilders-studio.itch.io/sugar-n-slice",
+    role: ["Game Developer", "Level Designer"],
+    genre: ["Roguelike", "Action", "Singleplayer"],
+    developmentTools: ["Unity"],
     keyFeatures: [
-      "Last-player-standing mechanics",
-      "Large multiplayer maps",
-      "Real-time combat",
+      "Fast-paced roguelike combat",
+      "Dynamic level-based progression",
+      "Candy-themed enemies and hazards"
     ],
     description:
-      "description ecnldcm ldemclekdcm elkdcm elkdcm ledkcm eldkc meldkmc lked clke",
-    tags: ["battle royale", "multiplayer", "action"],
+      "Sugar & Slice is a short and sweet roguelike where you play as Gremlyn, a notorious Halloween bandit invading the Crypt of Candy to steal sweets from ghosts and monsters. Inspired by *Hades* by Supergiant Games, players hack, slash, and dash through spooky arenas while earning randomized boons that enhance their abilities with each level. The game was developed by a 14-person team at ACM GameBuilders as an educational case study, focusing on mastering design, scope, and team coordination in Unity.",
+    tags: ["Roguelike", "Action", "Single-player"],
     cardImgSrc: "/game-dev-projects/shifter2.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
@@ -345,28 +355,32 @@ export const gameDevProjects = {
       "/game-dev-projects/midnight-cram2.png",
     ],
     summary:
-      "Battle Royale is an intense multiplayer action game where players compete for survival in a large, shrinking battlefield. The last-player-standing mechanic is at the core of the game, with players scavenging for resources, engaging in real-time combat, and avoiding elimination. The game offers large maps, dynamic environments, and fast-paced combat that rewards strategy and quick thinking. Developed using Unreal Engine 4, Battle Royale creates an adrenaline-pumping experience where players must outlast their opponents and be the last survivor. The game emphasizes teamwork, survival, and tactical combat for an exciting multiplayer experience.",
+      "Sugar & Slice is a Halloween-themed roguelike action game where you fight ghosts and monsters to steal candy and power up. Developed by a team of 14 at ACM GameBuilders, this was the studio's first full project release, modeled as a learning experience in Unity development. The game explores procedural combat progression, level-based upgrades, and stylish enemy design, all wrapped in a sugary, spooky aesthetic.",
     designGoals: [
-      "Create large, dynamic multiplayer maps.",
-      "Ensure tight and engaging real-time combat.",
-      "Focus on a fair and competitive gameplay experience.",
+      "Replicate the core gameplay loop of Hades while creating original combat and charm",
+      "Design varied levels that reward fast-paced and reactive gameplay",
+      "Encourage team members to explore new roles and engine features through hands-on contributions"
     ],
     coreMechanic: [
-      " ", 
-      " ", 
-      " "],
+      "Designed combat arenas and environmental layouts with hazards like spike traps and breakable barrels",
+      "Created and implemented boon reward systems to enhance player abilities after each level",
+      "Integrated audio for core combat actions to boost game feel and moment-to-moment immersion",
+      "Collaborated on enemy encounter flow and player progression pacing throughout the crypt levels"
+    ],
     whatWentWell: [
-      "Real-time combat was engaging and intense.",
-      "The map design allowed for strategic gameplay.",
+      "Boons added variety and strategic choices to each run",
+      "Environmental hazards added excitement and replay value",
+      "Audio feedback enhanced combat immersion and player engagement"
     ],
     challenges: [
-      "Balancing player engagement throughout the game.",
-      "Ensuring fair matchmaking for competitive play.",
+      "As my first Unity project, I had to quickly learn the engine and its systems while contributing actively",
+      "Balancing audio timing and feedback with gameplay responsiveness took multiple iteration cycles"
     ],
     lessonsLearned: [
-      "Game balance is crucial in battle royale games.",
-      "Map design should cater to diverse playstyles and strategies.",
-    ],
+      "Designing levels in Unity requires both aesthetic consideration and clear navigation logic",
+      "Audio implementation greatly affects how satisfying a game feels",
+      "Jumping into a new engine is tough—but hands-on experience is the fastest way to learn"
+    ]
   },
   "VRchaeology": {
     projectName: "VRchaeology",
