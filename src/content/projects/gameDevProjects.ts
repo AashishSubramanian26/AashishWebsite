@@ -156,7 +156,7 @@ export const gameDevProjects = {
     description:
       "A horror game built in Unreal Engine 5 for my CS415 Game Development course. Set in the haunted Grainger Engineering Library, you play as a student trapped in a nightmare, hunted by the menacing Grainger Bob. To escape, you must collect 14 scattered notes and pass your final exam—all while evading Bob’s pursuit using stealth and strategy.",
     tags: ["Unreal Engine", "Blender", "AI"],
-    cardImgSrc: "/game-dev-projects/midnight-cram2.png",
+    cardImgSrc: "/game-dev-projects/MidnightCram/Cover.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
       "/game-dev-projects/midnight-cram2.png",
@@ -335,7 +335,7 @@ export const gameDevProjects = {
     description:
       "Sugar & Slice is a short and sweet roguelike where you play as Gremlyn, a notorious Halloween bandit invading the Crypt of Candy to steal sweets from ghosts and monsters. Inspired by *Hades* by Supergiant Games, players hack, slash, and dash through spooky arenas while earning randomized boons that enhance their abilities with each level. The game was developed by a 14-person team at ACM GameBuilders as an educational case study, focusing on mastering design, scope, and team coordination in Unity.",
     tags: ["Roguelike", "Action", "Single-player"],
-    cardImgSrc: "/game-dev-projects/shifter2.png",
+    cardImgSrc: "/game-dev-projects/Sugar-Slice/SSIcon.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
       "/game-dev-projects/midnight-cram2.png",
@@ -397,7 +397,7 @@ export const gameDevProjects = {
     description:
       "VRchaeology revolutionizes archaeological education by simulating real-world field techniques in an immersive virtual reality setting. Designed for classroom use, the experience allows students to explore dig sites, uncover artifacts, and learn archaeological methodology—without ever leaving their desks. Built in Unreal Engine for VR, the project redefines hands-on learning for the field sciences.",
     tags: ["VR", "Simulation", "Educational"],
-    cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
+    cardImgSrc: "/game-dev-projects/VRArch/NewCover1.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
       "/game-dev-projects/midnight-cram2.png",
@@ -461,7 +461,7 @@ export const gameDevProjects = {
     description:
       "Trapped in a coma after a tragic car crash, a young girl must navigate a nightmarish dreamscape shaped by guilt, fear, and fractured memories. With her senses dulled and her body weak, she’s hunted by monstrous reflections of her own family—twisted versions born from her inner turmoil. As she clings to survival, she'll confront the truth she’s buried deep inside: maybe they didn’t hate her after all.",
     tags: ["5-Person Team", "Psychological Horror", "Single-Player"],
-    cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
+    cardImgSrc: "/game-dev-projects/WideAsleep/Cover.png",
     mediaContent: [
       "/game-dev-projects/beetle-bistro2.png",
       "/game-dev-projects/midnight-cram2.png",
