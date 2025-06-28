@@ -15,7 +15,7 @@ export const softwareProjects = [
       description:
         "StopQuest is a React-based web application developed in under a semester for my CS411 course, aimed at helping users plan personalized travel itineraries before leaving New York City. Users can select destinations—like restaurants and attractions—and receive an optimized schedule with stop sequences and timing. I built the front-end in React for itinerary building, and developed complex SQL queries and stored procedures on the backend to handle user preferences.",
       tags: ["React", "MySQL", "Python"],
-      imgSrc: "/game-dev-projects/beetle-bistro2.png"
+      imgSrc: "/software-projects/AgainSQ.png"
     },
     {
       alias: "Soccer-Shootout",
