@@ -96,22 +96,13 @@ export const gameDevProjects = {
     tags: ["co-op", "multiplayer", "21-Person Team", "Overcooked-like"],
     cardImgSrc: "/game-dev-projects/beetle-bistro2.png",
     mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+      "/game-dev-projects/BeetleBistro/ZSWJJI.gif",
+      "/game-dev-projects/BeetleBistro/KSgsPt.gif",
     ],
     coreMechanicsContent: [
       // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+      "/game-dev-projects/BeetleBistro/FzSPpr.gif",
+      "/game-dev-projects/BeetleBistro/7pgNE2.png"
     ],
     summary:
       "Beetle Bistro is a cooperative kitchen chaos game where you and your friends play as bug-sized chefs trying to cook and serve meals in tight quarters. The project was created as part of ACM GameBuilders’ second full-scale release and served as a team-based learning experience in Unity development, level design, and multiplayer systems.",
@@ -321,7 +312,7 @@ export const gameDevProjects = {
   //     ]
   // },
   "sugar-and-slice": {
-    projectName: "Sugar and Slice",
+    projectName: "Sugar & Slice",
     linkText: "Link",
     link: "https://gamebuilders-studio.itch.io/sugar-n-slice",
     role: ["Game Developer", "Level Designer"],
@@ -337,22 +328,18 @@ export const gameDevProjects = {
     tags: ["Roguelike", "Action", "Single-player"],
     cardImgSrc: "/game-dev-projects/Sugar-Slice/SSIcon.png",
     mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+      "/game-dev-projects/Sugar-Slice/SSIcon.png",
+      "/game-dev-projects/Sugar-Slice/pC2Xyo.gif",
+      "/game-dev-projects/Sugar-Slice/Screenshot 2025-06-27 003626.png",
+      "/game-dev-projects/Sugar-Slice/WQ3nx2.png",
+      "/game-dev-projects/Sugar-Slice/6PZX+P.png"
     ],
     coreMechanicsContent: [
       // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+      "/game-dev-projects/Sugar-Slice/Screenshot 2025-06-27 003626.png",
+      "/game-dev-projects/Sugar-Slice/cENfNi.png",
+      "/game-dev-projects/Sugar-Slice/E9O8mg.png",
+      "/game-dev-projects/Sugar-Slice/Screenshot 2025-06-27 235329.png"
     ],
     summary:
       "Sugar & Slice is a Halloween-themed roguelike action game where you fight ghosts and monsters to steal candy and power up. Developed by a team of 14 at ACM GameBuilders, this was the studio's first full project release, modeled as a learning experience in Unity development. The game explores procedural combat progression, level-based upgrades, and stylish enemy design, all wrapped in a sugary, spooky aesthetic.",
