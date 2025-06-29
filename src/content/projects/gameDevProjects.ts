@@ -151,7 +151,7 @@ export const gameDevProjects = {
       "/game-dev-projects/MidnightCram/Gif1.gif",
       "/game-dev-projects/MidnightCram/gif2.gif",
       "/game-dev-projects/MidnightCram/Screenshot 2025-06-28 134925.png",
-      "/game-dev-projects/MidnightCram/Screenshot 2025-06-28 140353.png",
+      // "/game-dev-projects/MidnightCram/Screenshot 2025-06-28 140353.png",
       "/game-dev-projects/MidnightCram/Screenshot 2025-06-28 135518.png"
     ],
     coreMechanicsContent: [
