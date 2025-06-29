@@ -381,22 +381,10 @@ export const gameDevProjects = {
     tags: ["VR", "Simulation", "Educational"],
     cardImgSrc: "/game-dev-projects/VRArch/NewCover1.png",
     mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+      "/game-dev-projects/VRArch/NewCover1.png"
     ],
     coreMechanicsContent: [
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+
     ],
     summary:
       "VRchaeology is a VR educational simulation that brings archaeology into the classroom. Students virtually participate in fieldwork activities—digging, discovering, and documenting artifacts—while learning core archaeological methods in an interactive, immersive environment. Built in Unreal Engine with VR support, this project makes field sciences accessible to all learners.",
@@ -445,22 +433,10 @@ export const gameDevProjects = {
     tags: ["5-Person Team", "Psychological Horror", "Single-Player"],
     cardImgSrc: "/game-dev-projects/WideAsleep/Cover.png",
     mediaContent: [
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+
     ],
     coreMechanicsContent: [
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
-      // "../src/images/game-dev-projects/visiongrunt.mov",
-      "/game-dev-projects/beetle-bistro2.png",
-      "/game-dev-projects/midnight-cram2.png",
+
     ],
     summary:
       "Wide Asleep is a narrative-focused horror game developed as part of a UIUC course designed to introduce students to the full game development pipeline. Rather than aiming for a polished, full-scale game, the goal of the project was to practice key industry skills such as writing design documentation, managing development timelines, scoping effectively, and collaborating within a team. The game explores a girl’s emotional journey through a coma-induced nightmare, blending psychological horror with exploration and light puzzle-solving.",
