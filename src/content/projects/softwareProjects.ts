@@ -1,5 +1,14 @@
 export const softwareProjects = [
-    {
+  {
+    alias: "MixSpace",
+    projectName: "Spotify MixSpace",
+    role: ["Programmer"],
+    description:
+      "Built in 13 hours during a hackathon with a 6-person team, MixSpace is a community-powered music system that personalizes shared spaces like gyms or cafes. Users scan a QR code to join, and MixSpace pulls their Spotify top tracks. A host sets a theme (e.g., chill vibes), and an LLM filters songs by genre, mood, and tempo to build a dynamic playlist. As new users join, the playlist evolves in real time, with host controls for shuffle rate and influence. We designed MixSpace to simplify the tedious process of using Spotify Jam—offering smoother onboarding, smarter filtering, and real-time adaptability.",
+    tags: ["Spotify API", "Hackathon", "LLM", "Python", "Typescript", ],
+    imgSrc: "/software-projects/MixSpace.png"
+  },
+  {
       alias: "CastPoint",
       projectName: "CastPoint",
       role: ["Programmer"],
