@@ -26,7 +26,6 @@ export const gameDevProjects = {
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 171257.png",
       // "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170625.png",
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170642.png",
-
     ],
     coreMechanicsContent: [
       "/game-dev-projects/TheShifter/Sgif4.gif", 
@@ -36,10 +35,6 @@ export const gameDevProjects = {
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170926.png",
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 171237.png",
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 171031.png",
-
-
-
-
     ],
     summary:
       "Created in just two weeks for the PirateSoftware Game Jam, The Shifter was built around the theme, 'Shadow and Alchemy.' Set in a haunting castle, the game challenges players to escape using shadow puppet magic—transforming into animals on the walls to solve intricate puzzles. Each transformation unlocks new paths, powers, exploration, and creative problem-solving.",
@@ -73,8 +68,6 @@ export const gameDevProjects = {
       "Developed a clearer grasp of the full game development workflow and the importance of documentation",
       "Learned how to manage a small team effectively and maintain steady progress under tight deadlines",
     ],
-
-
   },
 
   "beetle-bistro": {
