@@ -22,7 +22,7 @@ const Resume = () => {
       </Box>
       <Box justifySelf="center" paddingTop={10} width="80%">
         <object
-          data="Aashish Subramanian Resume.pdf"
+          data="Aashish Subramanian Resume - SWE.pdf"
           type="application/pdf"
           width="100%"
           height="1200px"
