@@ -2,7 +2,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { Box, Text, SimpleGrid } from "@chakra-ui/react";
 import { softwareProjects } from "@/content/projects/softwareProjects";
 import { useEffect } from "react";
-
+//Hello
 const SoftwareProjects = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
