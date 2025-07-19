@@ -84,23 +84,36 @@ export const NavBar = () => {
               </MenuItem>
             </MenuList>
           </Menu>
-          <Text
-            _hover={{
-              textDecoration: "underline",
-              textUnderlineOffset: "10px",
-              textDecorationThickness: "2px",
-            }}
-            cursor="pointer"
-            onClick={() => navigate("/resume")}
-            textDecoration={
-              location.pathname === "/resume" ? "underline" : "none"
-            }
-            textUnderlineOffset="10px"
-            textDecorationThickness="2px"
-            textStyle="nav"
-          >
-            Resume
-          </Text>
+          <Menu>
+            <MenuButton
+              as={Text}
+              _hover={{
+                textDecoration: "underline",
+                textUnderlineOffset: "10px",
+                textDecorationThickness: "2px",
+              }}
+              cursor="pointer"
+              textDecoration={
+                location.pathname === "/game-dev-resume" ||
+                location.pathname === "/resume"
+                  ? "underline"
+                  : "none"
+              }
+              textUnderlineOffset="10px"
+              textDecorationThickness="2px"
+              textStyle="nav"
+            >
+              Resume
+            </MenuButton>
+            <MenuList>
+              <MenuItem onClick={() => navigate("/game-dev-resume")}>
+                Game Dev Resume
+              </MenuItem>
+              <MenuItem onClick={() => navigate("/resume")}>
+                Software Resume
+              </MenuItem>
+            </MenuList>
+          </Menu>
           <Text
             _hover={{
               textDecoration: "underline",

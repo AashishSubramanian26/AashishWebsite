@@ -7,6 +7,7 @@ import {
 import Home from "@/pages/Home";
 import AboutMe from "@/pages/AboutMe";
 import Resume from "@/pages/Resume";
+import GameDevResume from "@/pages/GameDevResume";
 import GameDevProjects from "@/pages/GameDevProjects";
 import SoftwareProjects from "@/pages/SoftwareProjects";
 import { Box, ChakraProvider } from "@chakra-ui/react";
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/home" Component={Home} />
             <Route path="/about-me" Component={AboutMe} />
             <Route path="/resume" Component={Resume} />
+            <Route path="/game-dev-resume" Component={GameDevResume} />
             <Route path="/game-dev-projects" Component={GameDevProjects} />
             <Route path="/software-projects" Component={SoftwareProjects} />
             <Route

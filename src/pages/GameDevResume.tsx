@@ -1,7 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
 
-const Resume = () => {
+const GameDevResume = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -17,7 +17,7 @@ const Resume = () => {
         paddingY={4}
       >
         <Text textStyle="heading" align="center">
-         Software Dev Resume
+          Game Dev Resume
         </Text>
       </Box>
       <Box justifySelf="center" paddingTop={10} width="80%">
@@ -34,4 +34,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default GameDevResume;
