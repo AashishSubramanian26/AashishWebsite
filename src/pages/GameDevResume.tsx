@@ -17,12 +17,12 @@ const GameDevResume = () => {
         paddingY={4}
       >
         <Text textStyle="heading" align="center">
-          Game Dev Resume
+          Game Development Resume
         </Text>
       </Box>
       <Box justifySelf="center" paddingTop={10} width="80%">
         <object
-          data="Aashish Subramanian Resume - SWE.pdf"
+          data="Aashish Subramanian Resume - GameDev.pdf"
           type="application/pdf"
           width="100%"
           height="1200px"

@@ -17,7 +17,7 @@ const Resume = () => {
         paddingY={4}
       >
         <Text textStyle="heading" align="center">
-         Software Dev Resume
+         Software Engineering Resume
         </Text>
       </Box>
       <Box justifySelf="center" paddingTop={10} width="80%">

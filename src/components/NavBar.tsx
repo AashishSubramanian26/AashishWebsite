@@ -103,7 +103,7 @@ export const NavBar = () => {
               textDecorationThickness="2px"
               textStyle="nav"
             >
-              Resume
+              Resumes
             </MenuButton>
             <MenuList>
               <MenuItem onClick={() => navigate("/game-dev-resume")}>
