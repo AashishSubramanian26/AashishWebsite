@@ -14,6 +14,7 @@ import { Box, ChakraProvider } from "@chakra-ui/react";
 import theme from "@/styles/theme";
 import { NavBar } from "@/components/NavBar";
 import GameDevProject from "@/pages/GameDevProject";
+import SoftwareProject from "@/pages/SoftwareProject";
 
 const App = () => {
   return (
@@ -32,6 +33,10 @@ const App = () => {
             <Route
               path="/game-dev-projects/:projectName"
               Component={GameDevProject}
+            />
+            <Route 
+              path="/software-projects/:projectName" 
+              Component={SoftwareProject} 
             />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>

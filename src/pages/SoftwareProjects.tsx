@@ -1,9 +1,12 @@
 import { ProjectCard } from "@/components/ProjectCard";
 import { Box, Text, SimpleGrid } from "@chakra-ui/react";
 import { softwareProjects } from "@/content/projects/softwareProjects";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 //Hello
 const SoftwareProjects = () => {
+   const navigate = useNavigate();
+  
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -29,14 +32,15 @@ const SoftwareProjects = () => {
         justifySelf="center"
         paddingTop={10}
       >
-        {softwareProjects.map((project, index) => (
+        {Object.entries(softwareProjects).map(([alias, project], index) => (
           <ProjectCard
             key={index}
             projectName={project.projectName}
             roles={project.role}
             description={project.description}
             tags={project.tags}
-            imgSrc={project.imgSrc}
+            imgSrc={project.cardImgSrc}
+            onClick={() => navigate("/software-projects/" + alias)}
           />
         ))}
       </SimpleGrid>
