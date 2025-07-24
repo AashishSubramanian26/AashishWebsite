@@ -69,6 +69,71 @@ export const gameDevProjects = {
       "Learned how to manage a small team effectively and maintain steady progress under tight deadlines",
     ],
   },
+    "CES2026": {
+    projectName: "CES2026 Experience Simulator",
+    linkText: "Link",
+    link: "https://gamebuilders-studio.itch.io/ces2026-experience-simulator",
+    role: ["Environment Artist", "Game Developer"],
+    genre: ["Simulator", "Boating"],
+    developmentTools: ["Unreal Engine 5", "Blender", "Perforce"],
+    keyFeatures: [
+      "Created a realistic boating simulator",
+      "Reimaging the CES2025 experience from Brunswick Corporation",
+      "Connecting the visual experience to a HMI display"
+    ],
+    description:
+      "CES2026 Experience Simulator is a realistic boating simulator that reimagines the CES2025 experience from Brunswick Corporation. The project focuses on connecting the visual experience to a Human-Machine Interface (HMI) display, providing users with an immersive and interactive environment built in Unreal Engine 5.",
+    tags: ["Unreal Engine 5", "Cross-functional teams", "Boating Simulation"],
+    cardImgSrc: "/game-dev-projects/CES2026/BigShot.png",
+    mediaContent: [
+      "/game-dev-projects/CES2026/2025-07-23 15-58-41.mp4",
+      "/game-dev-projects/CES2026/Pretty.png",
+      "/game-dev-projects/CES2026/Lighthouse.png",
+      "/game-dev-projects/CES2026/Ship1.png",
+      "/game-dev-projects/CES2026/Pier.png",
+
+    ],
+    coreMechanicsContent: [
+      "/game-dev-projects/CES2026/image.png",
+      "/game-dev-projects/CES2026/Cave.png",
+      "/game-dev-projects/CES2026/Fort.png",
+      "/game-dev-projects/CES2026/Coral.png",
+      "/game-dev-projects/CES2026/Trees.png"
+    ],
+    summary:
+      "The CES2026 Experience Simulator delivers an immersive and interactive boating experience like never before. Built with Unreal Engine 5, the project demonstrates how cutting-edge environments can seamlessly connect to advanced HMI displays. As users navigate the virtual world, the HMI updates in real time to reflect their location, highlighting nearby landmarks and providing detailed information about each one. This encourages exploration and discovery, offering a compelling vision of the future of boating technology and user interaction.",
+    designGoals: [
+      "Create a realistic boating experience that showcases advanced HMI technology",
+      "Help users who are non-boaters have the opportunity to experience boating in a virtual environment",
+      "Upgraded the visual experience from the previous year's CES2025 project by incorporating new features and improvements",
+    ],
+    coreMechanic: [
+    "Used Unreal Engine 5 tools like Landscape and Foliage to redesign the boating simulator into a dynamic, open-ended experience beyond a single guided path",
+    "Collaborated with cross-functional teams to meet Brunswick Corporation’s CES2026 goals and showcase expectations",
+    "Created and refined 3D assets in Blender to elevate visual quality and environmental realism",
+    "Utilized Perforce for version control to ensure smooth asset integration and team-wide collaboration",
+    "Connecting the visual experience through a websocket which allowed for real-time updates such as location tracking and landmark information for the HMI display",
+    "Setup projectors and screens in our Lab to test out the overall experience and how it would look in preparation for the CES2026 event",
+],
+    whatWentWell: [
+      "Creating a realistic boating simulator that was visually appealing and immersive to explore and navigate",
+      "Successfully connecting the visual experience to the HMI display, allowing for real-time updates and information",
+      "Communicating effectively across teams to meet project goals and expectations",
+      "Led meetings to ensure everyone was on the same page and that the project was progressing smoothly",
+    ],
+    challenges: [
+      "Learning more of the art side of Unreal Engine 5 because it was my first time using them because I have primarily used only the basic features for creating projects, never the art side",
+      "Creating these landmarks to be visually appealing that fit into the world that we were creating",
+      "Performance issues in the simulator due to the large scale of the environment and the number of assets",
+      "Setting up the projectors and screens in our lab to test out the overall experience because the process of blending two different projectors was difficult and took a lot of time to get right",
+    ],
+    lessonsLearned: [
+      "Able to learn more about the art side of Unreal Engine 5 and how to create visually appealing assets for simualtion projects",
+      "Understanding the importance of cross-functional collaboration in large projects and how to effectively communicate with team members from different disciplines",
+      "The value of iterative design and testing, especially when integrating complex systems",
+      "Having a better understanding on how the process of having a project pipeline through the production phase works, especially with a large team",
+    ]
+  },
 
   "beetle-bistro": {
     projectName: "Beetle Bistro",
