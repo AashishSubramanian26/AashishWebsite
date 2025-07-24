@@ -95,7 +95,7 @@ export const gameDevProjects = {
 
     ],
     coreMechanicsContent: [
-      "/game-dev-projects/CES2026/HMIShowcase.mp4",
+      "/game-dev-projects/CES2026/HMIShowcase.gif",
       "/game-dev-projects/CES2026/image.png",
       "/game-dev-projects/CES2026/Cave.png",
       "/game-dev-projects/CES2026/Fort.png",

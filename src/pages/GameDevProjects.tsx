@@ -22,7 +22,7 @@ const GameDevProjects = () => {
         paddingY={4}
       >
         <Text textStyle="heading" align="center">
-          Game Dev Projects
+          Game Development Projects
         </Text>
       </Box>
       <SimpleGrid
