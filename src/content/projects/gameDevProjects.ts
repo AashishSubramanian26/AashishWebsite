@@ -86,6 +86,7 @@ export const gameDevProjects = {
     tags: ["Unreal Engine 5", "Cross-functional teams", "Boating Simulation"],
     cardImgSrc: "/game-dev-projects/CES2026/BigShot.png",
     mediaContent: [
+      "/game-dev-projects/CES2026/BigShot.png",
       "/game-dev-projects/CES2026/2025-07-23 15-58-41.mp4",
       "/game-dev-projects/CES2026/Pretty.png",
       "/game-dev-projects/CES2026/Lighthouse.png",
@@ -94,6 +95,7 @@ export const gameDevProjects = {
 
     ],
     coreMechanicsContent: [
+      "/game-dev-projects/CES2026/HMIShowcase.mp4",
       "/game-dev-projects/CES2026/image.png",
       "/game-dev-projects/CES2026/Cave.png",
       "/game-dev-projects/CES2026/Fort.png",

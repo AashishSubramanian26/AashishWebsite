@@ -77,10 +77,10 @@ export const NavBar = () => {
             </MenuButton>
             <MenuList>
               <MenuItem onClick={() => navigate("/game-dev-projects")}>
-                Game Dev Projects
+                Game Development
               </MenuItem>
               <MenuItem onClick={() => navigate("/software-projects")}>
-                Software Projects
+                Software Engineering
               </MenuItem>
             </MenuList>
           </Menu>
@@ -107,10 +107,10 @@ export const NavBar = () => {
             </MenuButton>
             <MenuList>
               <MenuItem onClick={() => navigate("/game-dev-resume")}>
-                Game Dev Resume
+                Game Development
               </MenuItem>
               <MenuItem onClick={() => navigate("/resume")}>
-                Software Resume
+                Software Engineering
               </MenuItem>
             </MenuList>
           </Menu>
