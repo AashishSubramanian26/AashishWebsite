@@ -70,7 +70,7 @@ export const gameDevProjects = {
     ],
   },
     "CES2026": {
-    projectName: "CES2026 Experience Simulator",
+    projectName: "CES 2026 Experience Simulator",
     linkText: "Link",
     link: "https://www.youtube.com/watch?v=RJpQHG_il-g",
     role: ["Environment Artist", "Game Developer"],
