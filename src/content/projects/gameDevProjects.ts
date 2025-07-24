@@ -12,7 +12,7 @@ export const gameDevProjects = {
       "Platformer Mechanics",
     ],
     description:
-      "You are a a knight trying to escape a castle and the only way to escape is to find the spells and cast shadow puppets so you can traverse the walls, and solve puzzles to escape the horrid place! The game involves you having to transform between the 3D and 2D world where you are once a knight that can turn into shadow animals.",
+      "You are a knight trying to escape a castle and the only way to escape is to find the spells and cast shadow puppets so you can traverse the walls, and solve puzzles to escape the horrid place! The game involves you having to transform between the 3D and 2D world where you are once a knight that can turn into shadow animals.",
     tags: ["Unreal Engine", "Game Jam", "3-Person Team"],
     cardImgSrc: "/game-dev-projects/shifter2.png",
     mediaContent: [
@@ -82,7 +82,7 @@ export const gameDevProjects = {
       "Connecting the visual experience to a HMI display"
     ],
     description:
-      "CES2026 Experience Simulator is a realistic boating simulator that reimagines the CES2025 experience from Brunswick Corporation. The project focuses on connecting the visual experience to a Human-Machine Interface (HMI) display, providing users with an immersive and interactive environment built in Unreal Engine 5.",
+      "As an intern at Brunswick Corporation, I worked on the CES2026 Experience Simulator—a realistic boating simulator built in Unreal Engine 5 for the Consumer Electronics Show (CES), a major annual tech event in Las Vegas. The project connects a detailed 3D environment to a Human-Machine Interface (HMI) display, creating an immersive and interactive boating experience.",
     tags: ["Unreal Engine 5", "Cross-functional teams", "Boating Simulation"],
     cardImgSrc: "/game-dev-projects/CES2026/BigShot.png",
     mediaContent: [
@@ -222,7 +222,7 @@ export const gameDevProjects = {
       "/game-dev-projects/MidnightCram/Screenshot 2025-06-28 135152.png"
     ],
     summary:
-      "The Midnight Cram is a thrilling zombie-themed shooter designed to deliver intense action and horror gameplay. Set in a dark, atmospheric world, players battle hordes of zombies while unraveling a compelling story. The game’s narrative is driven by missions that immerse players in a chilling survival experience. Players must manage resources, fight terrifying enemies, and make decisions that impact the outcome of the story. Developed with Unity, the game combines intense combat sequences with a rich narrative to create a heart-pounding, story-driven experience that keeps players on the edge of their seats throughout.",
+      "The Midnight Cram is a thrilling zombie-themed shooter designed to deliver intense action and horror gameplay. Set in a dark, atmospheric world, players battle hordes of zombies while unraveling a compelling story. The game’s narrative is driven by missions that immerse players in a chilling survival experience. Players must manage resources, fight terrifying enemies, and make decisions that impact the outcome of the story. Developed with Unreal Engine, the game combines intense combat sequences with a rich narrative to create a heart-pounding, story-driven experience that keeps players on the edge of their seats throughout.",
     designGoals: [
       "Create a tense and immersive horror atmosphere.",
       "Deliver high-intensity action gameplay.",
