@@ -72,7 +72,7 @@ export const gameDevProjects = {
     "CES2026": {
     projectName: "CES2026 Experience Simulator",
     linkText: "Link",
-    link: "https://gamebuilders-studio.itch.io/ces2026-experience-simulator",
+    link: "https://www.youtube.com/watch?v=RJpQHG_il-g",
     role: ["Environment Artist", "Game Developer"],
     genre: ["Simulator", "Boating"],
     developmentTools: ["Unreal Engine 5", "Blender", "Perforce"],
