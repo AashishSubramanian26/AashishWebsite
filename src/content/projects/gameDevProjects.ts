@@ -1,4 +1,66 @@
 export const gameDevProjects = {
+  "frogdoku": {
+  projectName: "Frogdoku",
+  linkText: "Steam",
+  link: "https://store.steampowered.com/app/3240910/Frogdoku/",
+  role: ["Game Programmer", "Graphics Programmer"],
+  genre: ["Puzzle", "Casual", "Singleplayer"],
+  developmentTools: ["Unreal Engine 5", "Blender", "Perforce", "Github"],
+  keyFeatures: [
+    "Cute frog-themed logic puzzles",
+    "Accessible Sudoku-inspired gameplay",
+    "Relaxing music & cozy vibes"
+  ],
+  description:
+    "Frogdoku is a cozy, frog-themed puzzle game inspired by Sudoku. Developed by Digital Scorpion Interactive and released on Steam, the game blends charming visuals with approachable, relaxing puzzle mechanics. I contributed across production, gameplay support, and team coordination to help bring the title from prototype to full release.",
+  tags: ["Unreal Engine 5", "Steam Release", "Indie Game"],
+  cardImgSrc: "public/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
+  mediaContent: [
+    "public/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
+    "public/game-dev-projects/Frogdoku/Gameplay1.jpg",
+    "public/game-dev-projects/Frogdoku/Gameplay2.jpg",
+    "public/game-dev-projects/Frogdoku/Gameplay3.jpg"
+  ],
+  coreMechanicsContent: [
+    "public/game-dev-projects/Frogdoku/MainMenu.png",
+    "public/game-dev-projects/Frogdoku/Gameplay4.jpg",
+    "public/game-dev-projects/Frogdoku/Options.png"
+  ],
+  summary:
+    "Frogdoku is a Sudoku-inspired puzzle game where players complete grid -based puzzle while enjoying a relaxing, cozy atmosphere. My role focused on coordinating between programming and art teams, improving communication pipelines, and supporting gameplay polishing efforts leading up to the Steam launch.",
+  designGoals: [
+    "Create an accessible, relaxing puzzle experience for casual players",
+    "Ensure clean visual feedback and satisfying game feel",
+    "Deliver a polished release-ready build for Steam"
+  ],
+  coreMechanic: [
+  "Designed and implemented the game's core UI/UX systems, including a fully interactive main menu with animated transitions that bring the world of Frogdoku to life",
+  "Developed an in-game dialogue system used to deliver narrative moments and contextual story beats throughout gameplay",
+  "Collaborated closely with both art and engineering teams to ensure UI styling, animations, and game logic felt cohesive and polished",
+  "Debugged numerous pre-launch and post-launch issues, including UI state bugs, scene transitions, and gameplay inconsistencies that surfaced during Steam release preparation",
+  "Improved player experience by refining UX flow, visual clarity, and responsiveness based on feedback from playtests and internal QA sessions"
+],
+
+  whatWentWell: [
+    "Smooth coordination between art and engineering ensured fast iteration",
+    "Puzzle mechanics felt intuitive and well-suited for casual players",
+    "Team morale stayed strong due to organized communication structure"
+  ],
+  challenges: [
+  "Major build-breaking issues occurred during the team's transition from Perforce to GitHub, requiring deep investigation into missing references, broken asset paths, and merge conflicts",
+  "Fixing UI and gameplay bugs that only appeared in packaged Steam builds, not in-editor, making debugging significantly more complex",
+  "Coordinating across a fully remote team working in multiple time zones, which required structuring communication carefully to avoid delays",
+  "Ensuring UI design, art style, and gameplay logic remained consistent while multiple contributors edited overlapping systems"
+],
+
+ lessonsLearned: [
+  "Gained firsthand experience in the realities of indie game development, including rapid iteration, wearing multiple hats, and solving unexpected production challenges",
+  "Learned how to act as an effective bridge between art and engineering teams — translating creative goals into technical tasks and vice versa",
+  "Developed stronger leadership instincts by helping coordinate responsibilities, unblock teammates, and keep systems aligned across the project",
+  "Recognized how critical structured communication is for remote teams, especially when members work in different time zones with varying schedules",
+  "Saw the importance of robust version control workflows and the risks associated with engine migrations or repository transitions"
+]
+},
   "the-shifter": {
     projectName: "The Shifter",
     linkText: "Link",
