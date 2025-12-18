@@ -14,17 +14,17 @@ export const gameDevProjects = {
   description:
     "Frogdoku is a cozy, frog-themed puzzle game inspired by Sudoku. Developed by Digital Scorpion Interactive and released on Steam, the game blends charming visuals with approachable, relaxing puzzle mechanics. I contributed across production, gameplay support, and team coordination to help bring the title from prototype to full release.",
   tags: ["Unreal Engine 5", "Steam Release", "Indie Game"],
-  cardImgSrc: "public/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
+  cardImgSrc: "/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
   mediaContent: [
-    "public/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
-    "public/game-dev-projects/Frogdoku/Gameplay1.jpg",
-    "public/game-dev-projects/Frogdoku/Gameplay2.jpg",
-    "public/game-dev-projects/Frogdoku/Gameplay3.jpg"
+    "/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
+    "/game-dev-projects/Frogdoku/Gameplay1.jpg",
+    "/game-dev-projects/Frogdoku/Gameplay2.jpg",
+    "/game-dev-projects/Frogdoku/Gameplay3.jpg"
   ],
   coreMechanicsContent: [
-    "public/game-dev-projects/Frogdoku/MainMenu.png",
-    "public/game-dev-projects/Frogdoku/Gameplay4.jpg",
-    "public/game-dev-projects/Frogdoku/Options.png"
+    "/game-dev-projects/Frogdoku/MainMenu.png",
+    "/game-dev-projects/Frogdoku/Gameplay4.jpg",
+    "/game-dev-projects/Frogdoku/Options.png"
   ],
   summary:
     "Frogdoku is a Sudoku-inspired puzzle game where players complete grid -based puzzle while enjoying a relaxing, cozy atmosphere. My role focused on coordinating between programming and art teams, improving communication pipelines, and supporting gameplay polishing efforts leading up to the Steam launch.",
@@ -87,7 +87,7 @@ export const gameDevProjects = {
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170004.png",
       "/game-dev-projects/TheShifter/Screenshot 2025-06-28 171257.png",
       // "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170625.png",
-      "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170642.png",
+      "/game-dev-projects/TheShifter/Screenshot 2025-06-28 170642.png"
     ],
     coreMechanicsContent: [
       "/game-dev-projects/TheShifter/Sgif4.gif", 
