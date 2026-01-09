@@ -38,7 +38,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="public/about-me/AashishYoung.jpg"
+              src="/about-me/AashishYoung.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -85,7 +85,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="public/about-me/MixCollage-08-Jan-2026-05-39-PM-8123.jpg"
+              src="/about-me/MixCollage-08-Jan-2026-05-39-PM-8123.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -108,7 +108,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="public/about-me/Brunswick_Visit-69.jpg"
+              src="/about-me/Brunswick_Visit-69.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
