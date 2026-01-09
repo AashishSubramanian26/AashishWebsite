@@ -161,6 +161,64 @@ export const softwareProjects = {
     ]
   },
 
+  "CES-Lounge-UI": {
+    projectName: "CES Lounge UI Dashboard",
+    linkText: "Demo",
+    link: "https://example.com/ces-lounge-ui", // replace if you have a video/link
+    role: ["Programmer", "UI/UX"],
+    genre: ["CES2026", "HMI", "Dashboard"],
+    developmentTools: ["Flutter", "Dart"],
+    keyFeatures: [
+      "Touch-friendly vessel dashboard layout",
+      "Custom circular sliders + gradient ring controls",
+      "Lights color + brightness control panel",
+      "Grill temperature dial + quick toggle",
+    ],
+    description:
+      "Built a tablet-style lounge dashboard UI for a CES boat  experience as a passanger. The interface consolidates vessel-style controls and status cards into a clean, kiosk-friendly layout, including music playback, weather/water temp display, lighting controls (color + brightness), and grill temperature controls. Designed for fast interactions and reliable demos in a show-floor environment.",
+    tags: ["Flutter", "Dart", "HMI", "CES", "Dashboard", "UI/UX"],
+    cardImgSrc: "/software-projects/Vessel.png", // add a screenshot from your UI
+    mediaContent: [
+      "/software-projects/Vessel.png",
+      "/software-projects/Vessel2.png",
+      // "/software-projects/CESLoungeUI_2.png",
+      // "/software-projects/CESLoungeUI_demo.mp4",
+    ],
+    coreMechanicsContent: [],
+    summary:
+      "A CES-ready tablet dashboard that makes a boat-simulator lounge feel interactive and premium, using custom Flutter controls and a modular panel system for quick show-floor use.",
+    designGoals: [
+      "Make a kiosk-friendly UI that feels premium and readable at a distance",
+      "Minimize taps with dashboard-style quick controls",
+      "Support multiple modules (weather, music, lights, grill) without clutter",
+      "Keep the UI reliable and responsive for live demos",
+    ],
+    coreMechanic: [
+      "Built the lounge dashboard layout + navigation structure in Flutter",
+      "Implemented custom circular dial widgets for temp/volume-style controls",
+      "Created lights controls with color picker + brightness slider interactions",
+      "Integrated live data/control messaging via UDP/WebSockets for real-time updates with our AI chatbot",
+    ],
+    whatWentWell: [
+      "Dashboard layout stayed clean even with multiple modules on screen",
+      "Circular controls felt intuitive and “boat premium” instead of generic sliders",
+      "Components were modular, so adding/removing panels was easy",
+      "UI remained readable and responsive for a demo/kiosk setting",
+    ],
+    challenges: [
+      "Learning Flutter from scratch under time pressure for execution for CES",
+      "Tuning touch interactions so dials feel smooth and accurate",
+      "Keeping visuals consistent across different tablet resolutions",
+      "Making network updates feel real-time without UI jitter",
+      "Balancing ‘flashy CES’ aesthetics with clarity and usability",
+    ],
+    lessonsLearned: [
+      "Custom controls can massively elevate perceived product quality",
+      "Kiosk UIs need bigger spacing + fewer steps than normal apps",
+      "Real-time UI feels best with careful state + update throttling",
+      "Modular widget architecture saves you when scope shifts mid-build",
+    ],
+  },
   "Soccer-Shootout": {
     projectName: "Soccer Shootout",
     linkText: "Link",

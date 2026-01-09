@@ -503,10 +503,15 @@ export const gameDevProjects = {
     tags: ["VR", "Simulation", "Educational"],
     cardImgSrc: "/game-dev-projects/VRArch/NewCover1.png",
     mediaContent: [
-      "/game-dev-projects/VRArch/NewCover1.png"
+      "/game-dev-projects/VRArch/NewCover1.png",
+      "/game-dev-projects/VRArch/Moonshine.png",
+      "/game-dev-projects/VRArch/Waterfall.png",
+      "/game-dev-projects/VRArch/Chalkboard.png"
     ],
     coreMechanicsContent: [
-
+      "/game-dev-projects/VRArch/Bucket.png",
+      "/game-dev-projects/VRArch/Flags.png",
+      "/game-dev-projects/VRArch/Lab5.png"
     ],
     summary:
       "VRchaeology is a VR educational simulation that brings archaeology into the classroom. Students virtually participate in fieldwork activities—digging, discovering, and documenting artifacts—while learning core archaeological methods in an interactive, immersive environment. Built in Unreal Engine with VR support, this project makes field sciences accessible to all learners.",
