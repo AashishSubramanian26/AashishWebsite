@@ -38,7 +38,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="/game-dev-projects/shifter2.png"
+              src="public/about-me/AashishYoung.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -85,7 +85,7 @@ const AboutMe = () => {
               </Text>
             </Box>
             <Image
-              src="/game-dev-projects/shifter2.png"
+              src="public/about-me/MixCollage-08-Jan-2026-05-39-PM-8123.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
@@ -104,11 +104,11 @@ const AboutMe = () => {
               marginBottom={2}
             >
               <Text textStyle="heading" align="center">
-                Not Only 'Video' Games
+                I Build Things
               </Text>
             </Box>
             <Image
-              src="/game-dev-projects/shifter2.png"
+              src="public/about-me/Brunswick_Visit-69.jpg"
               alt="Project 1 picture"
               rounded="3xl"
               width="510%"
