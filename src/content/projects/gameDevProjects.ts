@@ -492,7 +492,7 @@ export const gameDevProjects = {
     link: "https://games.illinois.edu/Ongoing-Projects.html",
     role: ["Game Programmer"],
     genre: ["Educational", "Exploration", "Training"],
-    developmentTools: ["VR", "Unreal Engine", "Jira"],
+    developmentTools: ["Virtual Reality (Meta Quest)", "Unreal Engine", "Jira"],
     keyFeatures: [
       "Immersive VR-based archaeology simulation",
       "Hands-on excavation and artifact discovery",
@@ -555,9 +555,14 @@ export const gameDevProjects = {
     tags: ["5-Person Team", "Psychological Horror", "Single-Player"],
     cardImgSrc: "/game-dev-projects/WideAsleep/Cover.png",
     mediaContent: [
-
+      "/game-dev-projects/WideAsleep/Screenshot 2026-01-09 014205.png",
+      "/game-dev-projects/WideAsleep/Screenshot 2026-01-09 014411.png",
+      "/game-dev-projects/WideAsleep/Screenshot 2026-01-09 014455.png"
     ],
     coreMechanicsContent: [
+      "/game-dev-projects/WideAsleep/TaskSchedule.png",
+      "/game-dev-projects/WideAsleep/Timeline.png",
+      "/game-dev-projects/WideAsleep/Screenshot 2026-01-09 022556.png"
 
     ],
     summary:
