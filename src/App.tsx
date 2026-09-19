@@ -4,12 +4,10 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import Home from "@/pages/Home";
+import Projects from "@/pages/Projects";
 import AboutMe from "@/pages/AboutMe";
 import Resume from "@/pages/Resume";
 import GameDevResume from "@/pages/GameDevResume";
-import GameDevProjects from "@/pages/GameDevProjects";
-import SoftwareProjects from "@/pages/SoftwareProjects";
 import { Box, ChakraProvider } from "@chakra-ui/react";
 import theme from "@/styles/theme";
 import { NavBar } from "@/components/NavBar";
@@ -23,13 +21,14 @@ const App = () => {
         <Router>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Navigate to="/home" />} />
-            <Route path="/home" Component={Home} />
+            <Route path="/" Component={Projects} />
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path="/projects" element={<Navigate to="/" replace />} />
             <Route path="/about-me" Component={AboutMe} />
             <Route path="/resume" Component={Resume} />
             <Route path="/game-dev-resume" Component={GameDevResume} />
-            <Route path="/game-dev-projects" Component={GameDevProjects} />
-            <Route path="/software-projects" Component={SoftwareProjects} />
+            <Route path="/game-dev-projects" element={<Navigate to="/" replace />} />
+            <Route path="/software-projects" element={<Navigate to="/" replace />} />
             <Route
               path="/game-dev-projects/:projectName"
               Component={GameDevProject}
@@ -38,7 +37,7 @@ const App = () => {
               path="/software-projects/:projectName" 
               Component={SoftwareProject} 
             />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Box height="150px" background={"bg_blue"} />
         </Router>
