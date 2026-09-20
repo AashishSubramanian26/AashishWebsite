@@ -18,7 +18,7 @@ export const NavBar = () => {
             textDecoration={pathname === "/about-me" ? "underline" : "none"} textUnderlineOffset="6px">About</Link>
           <Menu>
             <MenuButton as={Button} variant="link" color="inherit" fontSize="inherit"
-              textDecoration={isResume ? "underline" : "none"} textUnderlineOffset="6px">Résumés ▾</MenuButton>
+              textDecoration={isResume ? "underline" : "none"} textUnderlineOffset="6px">Resumes ▾</MenuButton>
             <MenuList>
               <MenuItem as={RouterLink} to="/game-dev-resume">Game Development</MenuItem>
               <MenuItem as={RouterLink} to="/resume">Software Engineering</MenuItem>

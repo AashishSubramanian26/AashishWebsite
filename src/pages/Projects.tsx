@@ -100,6 +100,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               size="sm"
               colorScheme="blue"
+              variant="outline"
             >
               LinkedIn ↗
             </Button>
@@ -115,6 +116,16 @@ export default function Projects() {
             >
               GitHub ↗
             </Button>
+
+              <Button
+                as="a"
+                href="mailto:aashish.subramanian26@gmail.com"
+                size="sm"
+                colorScheme="blue"
+                variant="outline"
+              >
+                Email me ✉
+              </Button>
 
             <Button
               as={RouterLink}
