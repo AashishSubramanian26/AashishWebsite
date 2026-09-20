@@ -270,9 +270,15 @@ export const MediaCarousel = ({ items }: MediaCarouselProps) => {
           </ModalHeader>
 
           <ModalCloseButton
-            aria-label="Close media viewer"
-            top={3}
-            right={3}
+            top={4}
+            right={6}
+            w="48px"
+            h="48px"
+            fontSize="28px"
+            borderRadius="full"
+            color="white"
+            _hover={{ bg: "whiteAlpha.300" }}
+            zIndex={10}
           />
 
           <ModalBody

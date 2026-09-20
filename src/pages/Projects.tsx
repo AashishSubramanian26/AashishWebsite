@@ -8,6 +8,10 @@ import {
   Image,
   Flex,
   Button,
+  Wrap,
+  WrapItem,
+  Tag,
+  TagLabel,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 import { useEffect } from "react";
@@ -84,8 +88,9 @@ export default function Projects() {
             maxW="700px"
             mb={4}
           >
-            I build games and interactive experiences, with interests in
-            programming, UI/UX, and design. Explore my work below.
+                I'm a Master's student in Entertainment Technology at Carnegie Mellon University with a 
+                background in Computer Engineering from University of Illinois at Urbana-Champaign. 
+                My interests span from gameplay programming, UI/UX, interactive design, and production. Explore my work below!
           </Text>
 
           <Flex
@@ -211,9 +216,21 @@ export default function Projects() {
                       {project.description}
                     </Text>
 
-                    <Text fontSize="xs" color="gray.600">
-                      {project.tags.join(" · ")}
-                    </Text>
+                    <Wrap spacing={2}>
+                      {project.tags.map((tag) => (
+                        <WrapItem key={tag}>
+                          <Tag
+                            size="sm"
+                            borderRadius="full"
+                            bg="blue.100"
+                            color="blue.800"
+                            fontWeight="600"
+                          >
+                            <TagLabel>{tag}</TagLabel>
+                          </Tag>
+                        </WrapItem>
+                      ))}
+                    </Wrap>
 
                     <Text
                       fontSize="sm"
