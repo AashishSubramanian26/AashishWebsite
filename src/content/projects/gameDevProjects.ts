@@ -3,7 +3,7 @@ export const gameDevProjects = {
   projectName: "Frogdoku",
   linkText: "Steam",
   link: "https://store.steampowered.com/app/3720260/Frogdoku/",
-  role: ["Game Programmer", "Graphics Programmer"],
+  role: ["Lead Game Programmer", "UI/UX Designer", "Team Coordinator"],
   genre: ["Puzzle", "Casual", "Singleplayer"],
   developmentTools: ["Unreal Engine 5", "Blender", "Perforce", "Github"],
   keyFeatures: [
@@ -17,6 +17,7 @@ export const gameDevProjects = {
   cardImgSrc: "/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
   mediaContent: [
     "/game-dev-projects/Frogdoku/FrogdokuCover.jpg",
+    "/game-dev-projects/Frogdoku/SpringForwardOfficialTrailerFixed.mp4",
     "/game-dev-projects/Frogdoku/Gameplay1.jpg",
     "/game-dev-projects/Frogdoku/Gameplay2.jpg",
     "/game-dev-projects/Frogdoku/Gameplay3.jpg"
