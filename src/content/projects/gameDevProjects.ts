@@ -2,7 +2,7 @@ export const gameDevProjects = {
   "frogdoku": {
   projectName: "Frogdoku",
   linkText: "Steam",
-  link: "https://store.steampowered.com/app/3240910/Frogdoku/",
+  link: "https://store.steampowered.com/app/3720260/Frogdoku/",
   role: ["Game Programmer", "Graphics Programmer"],
   genre: ["Puzzle", "Casual", "Singleplayer"],
   developmentTools: ["Unreal Engine 5", "Blender", "Perforce", "Github"],
