@@ -1,51 +1,97 @@
 import { ProjectCard } from "@/components/ProjectCard";
-import { Box, Text, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import { gameDevProjects } from "@/content/projects/gameDevProjects";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+
 
 const GameDevProjects = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
-    <Box paddingY={16} backgroundColor="bg_blue">
+    <Box
+      py={{ base: 8, md: 16 }}
+      backgroundColor="bg_blue"
+      minHeight="100vh"
+    >
+
+      {/* =====================================================
+          PAGE HEADER
+      ===================================================== */}
       <Box
         backgroundColor="secondary_blue"
-        width="80%"
-        justifySelf="center"
+        width={{ base: "92%", md: "88%", xl: "80%" }}
+        maxWidth="1500px"
+        mx="auto"
         rounded="3xl"
-        paddingX={4}
-        paddingY={4}
+        px={{ base: 4, md: 6 }}
+        py={{ base: 5, md: 6 }}
       >
-        <Text textStyle="heading" align="center">
+        <Text
+          textStyle="heading"
+          textAlign="center"
+          fontSize={{ base: "2xl", md: "4xl" }}
+        >
           Game Development Projects
         </Text>
       </Box>
+
+
+      {/* =====================================================
+          PROJECT GRID
+      ===================================================== */}
       <SimpleGrid
-        columns={[1, 1, 1, 1, 2]}
-        spacing={10}
-        width="80%"
-        justifySelf="center"
-        paddingTop={10}
+        columns={{
+          base: 1,
+          lg: 2,
+        }}
+        gap={{
+          base: 6,
+          md: 10,
+        }}
+        width={{
+          base: "92%",
+          md: "88%",
+          xl: "80%",
+        }}
+        maxWidth="1500px"
+        mx="auto"
+        pt={{
+          base: 6,
+          md: 10,
+        }}
       >
-        {Object.entries(gameDevProjects).map(([alias, project], index) => (
-          <ProjectCard
-            key={index}
-            projectName={project.projectName}
-            roles={project.role}
-            description={project.description}
-            tags={project.tags}
-            imgSrc={project.cardImgSrc}
-            onClick={() => navigate("/game-dev-projects/" + alias)}
-          />
-        ))}
+        {Object.entries(gameDevProjects).map(
+          ([alias, project]) => (
+            <ProjectCard
+              key={alias}
+              projectName={project.projectName}
+              roles={project.role}
+              description={project.description}
+              tags={project.tags}
+              imgSrc={project.cardImgSrc}
+              onClick={() =>
+                navigate(
+                  "/game-dev-projects/" + alias
+                )
+              }
+            />
+          )
+        )}
       </SimpleGrid>
+
     </Box>
   );
 };
+
 
 export default GameDevProjects;
