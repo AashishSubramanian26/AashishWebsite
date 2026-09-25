@@ -1,4 +1,10 @@
-import { Box, Text, HStack, VStack, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  VStack,
+  Image,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import { useEffect } from "react";
 import { aboutMeContent } from "@/content/aboutMe";
 
@@ -8,125 +14,256 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <Box paddingY={16} backgroundColor="bg_blue">
-      <VStack rowGap={10} justifySelf="center" width="80%">
+    <Box
+      py={{ base: 8, md: 16 }}
+      backgroundColor="bg_blue"
+      minHeight="100vh"
+    >
+      <VStack
+        gap={{ base: 8, md: 10 }}
+        width={{ base: "92%", md: "88%", xl: "80%" }}
+        maxWidth="1500px"
+        mx="auto"
+      >
+
+        {/* =====================================================
+            PAGE HEADER
+        ===================================================== */}
         <Box
           backgroundColor="secondary_blue"
           width="100%"
-          justifySelf="center"
           rounded="3xl"
-          paddingX={4}
-          paddingY={4}
+          px={{ base: 4, md: 6 }}
+          py={{ base: 5, md: 6 }}
         >
-          <Text textStyle="heading" align="center">
+          <Text
+            textStyle="heading"
+            textAlign="center"
+            fontSize={{ base: "2xl", md: "4xl" }}
+          >
             Hi, I'm Aashish!
           </Text>
         </Box>
-        <HStack width="100%" alignItems="stretch" gap={10}>
-          <VStack width="50%">
+
+
+        {/* =====================================================
+            LIFELONG GAMER
+        ===================================================== */}
+        <SimpleGrid
+          columns={{ base: 1, lg: 2 }}
+          width="100%"
+          gap={{ base: 5, md: 10 }}
+          alignItems="stretch"
+        >
+          {/* Image Side */}
+          <VStack
+            width="100%"
+            gap={3}
+          >
             <Box
               backgroundColor="tertiary_blue"
               width="100%"
-              justifySelf="center"
               rounded="3xl"
-              paddingX={4}
-              paddingY={4}
-              marginBottom={2}
+              px={{ base: 4, md: 6 }}
+              py={{ base: 4, md: 5 }}
             >
-              <Text textStyle="heading" align="center">
+              <Text
+                textStyle="heading"
+                textAlign="center"
+                fontSize={{ base: "xl", md: "2xl" }}
+              >
                 Lifelong Gamer
               </Text>
             </Box>
+
             <Image
               src="/about-me/AashishYoung.jpg"
-              alt="Project 1 picture"
+              alt="Aashish playing games when he was younger"
               rounded="3xl"
-              width="510%"
+              width="100%"
+              height={{
+                base: "300px",
+                sm: "400px",
+                md: "500px",
+              }}
+              objectFit="cover"
             />
           </VStack>
+
+
+          {/* Text Side */}
           <Box
             backgroundColor="secondary_blue"
-            width="50%"
-            justifySelf="center"
+            width="100%"
             rounded="3xl"
-            paddingX={4}
-            paddingY={4}
+            p={{ base: 5, md: 8 }}
+            display="flex"
+            alignItems="center"
           >
-            <Text textStyle="body" align="left" padding={8}>
+            <Text
+              textStyle="body"
+              textAlign="left"
+              fontSize={{ base: "sm", md: "md" }}
+              lineHeight={{ base: "1.7", md: "1.8" }}
+            >
               {aboutMeContent.lifelongGamer}
             </Text>
           </Box>
-        </HStack>
-        <HStack width="100%" alignItems="stretch" gap={10}>
+        </SimpleGrid>
+
+
+        {/* =====================================================
+            FAN OF VISUAL MEDIA
+        ===================================================== */}
+        <SimpleGrid
+          columns={{ base: 1, lg: 2 }}
+          width="100%"
+          gap={{ base: 5, md: 10 }}
+          alignItems="stretch"
+        >
+
+          {/* Text Side - Desktop */}
           <Box
             backgroundColor="secondary_blue"
-            width="50%"
-            justifySelf="center"
+            width="100%"
             rounded="3xl"
-            paddingX={4}
-            paddingY={4}
+            p={{ base: 5, md: 8 }}
+            display={{ base: "none", lg: "flex" }}
+            alignItems="center"
           >
-            <Text textStyle="body" align="left" padding={8}>
+            <Text
+              textStyle="body"
+              textAlign="left"
+              fontSize={{ base: "sm", md: "md" }}
+              lineHeight="1.8"
+            >
               {aboutMeContent.visualMediaFan}
             </Text>
           </Box>
-          <VStack width="50%">
+
+
+          {/* Image Side */}
+          <VStack
+            width="100%"
+            gap={3}
+          >
             <Box
               backgroundColor="tertiary_blue"
               width="100%"
-              justifySelf="center"
               rounded="3xl"
-              paddingX={4}
-              paddingY={4}
-              marginBottom={2}
+              px={{ base: 4, md: 6 }}
+              py={{ base: 4, md: 5 }}
             >
-              <Text textStyle="heading" align="center">
+              <Text
+                textStyle="heading"
+                textAlign="center"
+                fontSize={{ base: "xl", md: "2xl" }}
+              >
                 Fan of Visual Media
               </Text>
             </Box>
+
             <Image
               src="/about-me/MixCollage-08-Jan-2026-05-39-PM-8123.jpg"
-              alt="Project 1 picture"
+              alt="A collage representing Aashish's interest in visual media"
               rounded="3xl"
-              width="510%"
+              width="100%"
+              height={{
+                base: "300px",
+                sm: "400px",
+                md: "500px",
+              }}
+              objectFit="cover"
             />
           </VStack>
-        </HStack>
-        <HStack width="100%" alignItems="stretch" gap={10}>
-          <VStack width="50%">
+
+
+          {/* Text Side - Mobile */}
+          <Box
+            backgroundColor="secondary_blue"
+            width="100%"
+            rounded="3xl"
+            p={5}
+            display={{ base: "block", lg: "none" }}
+          >
+            <Text
+              textStyle="body"
+              textAlign="left"
+              fontSize="sm"
+              lineHeight="1.7"
+            >
+              {aboutMeContent.visualMediaFan}
+            </Text>
+          </Box>
+        </SimpleGrid>
+
+
+        {/* =====================================================
+            I BUILD THINGS
+        ===================================================== */}
+        <SimpleGrid
+          columns={{ base: 1, lg: 2 }}
+          width="100%"
+          gap={{ base: 5, md: 10 }}
+          alignItems="stretch"
+        >
+
+          {/* Image Side */}
+          <VStack
+            width="100%"
+            gap={3}
+          >
             <Box
               backgroundColor="tertiary_blue"
               width="100%"
-              justifySelf="center"
               rounded="3xl"
-              paddingX={4}
-              paddingY={4}
-              marginBottom={2}
+              px={{ base: 4, md: 6 }}
+              py={{ base: 4, md: 5 }}
             >
-              <Text textStyle="heading" align="center">
+              <Text
+                textStyle="heading"
+                textAlign="center"
+                fontSize={{ base: "xl", md: "2xl" }}
+              >
                 I Build Things
               </Text>
             </Box>
+
             <Image
               src="/about-me/Brunswick_Visit-69.jpg"
-              alt="Project 1 picture"
+              alt="Aashish working on a project"
               rounded="3xl"
-              width="510%"
+              width="100%"
+              height={{
+                base: "300px",
+                sm: "400px",
+                md: "500px",
+              }}
+              objectFit="cover"
             />
           </VStack>
+
+
+          {/* Text Side */}
           <Box
             backgroundColor="secondary_blue"
-            width="50%"
-            justifySelf="center"
+            width="100%"
             rounded="3xl"
-            paddingX={4}
-            paddingY={4}
+            p={{ base: 5, md: 8 }}
+            display="flex"
+            alignItems="center"
           >
-            <Text textStyle="body" align="left" padding={8}>
+            <Text
+              textStyle="body"
+              textAlign="left"
+              fontSize={{ base: "sm", md: "md" }}
+              lineHeight={{ base: "1.7", md: "1.8" }}
+            >
               {aboutMeContent.notOnlyVG}
             </Text>
           </Box>
-        </HStack>
+        </SimpleGrid>
+
       </VStack>
     </Box>
   );
